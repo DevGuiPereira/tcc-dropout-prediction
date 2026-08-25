@@ -1,0 +1,35 @@
+# TCC — Predição de Evasão no Ensino Superior
+# Versões fixadas nas efetivamente usadas na execução documentada (Python 3.14.4).
+# Instalação:  pip install -r requirements.txt
+
+# --- Manipulação de dados ----------------------------------------------------
+pandas==3.0.5
+numpy==2.5.2
+
+# --- Machine learning --------------------------------------------------------
+scikit-learn==1.9.0
+xgboost==3.4.0
+imbalanced-learn==0.14.2
+
+# --- Interpretabilidade ------------------------------------------------------
+shap==0.52.0
+
+# --- Visualização ------------------------------------------------------------
+matplotlib==3.11.1
+seaborn==0.13.2
+
+# --- Persistência de modelos -------------------------------------------------
+joblib==1.5.3
+
+# --- Acesso ao banco de dados ------------------------------------------------
+SQLAlchemy==2.0.52
+PyMySQL==1.2.0
+python-dotenv==1.2.2
+
+# --- Fonte de dados alternativa (fallback) -----------------------------------
+ucimlrepo==0.0.7
+
+# --- Ambiente de notebooks ---------------------------------------------------
+notebook==7.6.2
+ipykernel==7.3.0
+nbformat==5.11.0
