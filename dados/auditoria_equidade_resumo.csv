@@ -1,0 +1,6 @@
+variável,disparidade de recall (pp),disparidade de FPR (pp),menor recall,maior recall,p-valor,significativo (5%),ICs disjuntos
+Gênero,2.447552447552448,3.988176003101376,feminino (0),masculino (1),0.5008175375284307,não,nenhum
+Faixa etária,7.262740311260297,2.3769668563776367,até 20 anos,26 anos ou mais,0.07195980554065731,não,nenhum
+Bolsista,2.7728085867620766,4.100018385732672,não bolsista,bolsista,0.618145843922468,não,nenhum
+Turno,2.9199372056515016,0.026693360026693036,diurno (1),noturno (0),0.5343200333336929,não,nenhum
+Deslocado da cidade,3.499469777306463,3.6992945326278655,deslocado,não deslocado,0.34331321929938985,não,nenhum
