@@ -1,0 +1,10 @@
+métrica,semente 42,média das 10,mínimo,máximo
+F1,0.9059,0.8796,0.8656,0.8909
+Recall,0.8979,0.8437,0.8239,0.8592
+Precisão,0.914,0.9191,0.8873,0.9412
+Detectados de cada 100 evadidos,90.0,84.0,82.0,86.0
+Acerto de cada 100 sinalizados,91.0,92.0,89.0,94.0
+Verdadeiros positivos,255.0,240.0,234.0,244.0
+Falsos negativos,29.0,44.0,40.0,50.0
+Falsos positivos,24.0,21.0,15.0,31.0
+Alunos sinalizados,279.0,261.0,253.0,275.0
