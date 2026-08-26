@@ -1,0 +1,36 @@
+posicao,variavel,impacto_medio,n_features,% do total
+1,Disciplinas aprovadas (2º sem.),1.5425152,1,24.93
+2,Disciplinas aprovadas (1º sem.),0.8258287,1,13.35
+3,Mensalidades em dia,0.42322862,1,6.84
+4,Disciplinas matriculadas (1º sem.),0.39175084,1,6.33
+5,Média das notas (2º sem.),0.25089246,1,4.05
+6,Bolsista,0.24191546,1,3.91
+7,Nota de admissão,0.24009326,1,3.88
+8,Curso,0.233171,17,3.77
+9,Idade no ingresso,0.20324282,1,3.28
+10,Taxa de desemprego,0.17985106,1,2.91
+11,Inadimplente,0.17582443,1,2.84
+12,Avaliações realizadas (2º sem.),0.1691706,1,2.73
+13,Deslocado da cidade de origem,0.1424498,1,2.3
+14,Ocupação do pai,0.117356226,13,1.9
+15,Gênero,0.1147556,1,1.85
+16,Disciplinas matriculadas (2º sem.),0.11399934,1,1.84
+17,Modalidade de ingresso,0.1128339,10,1.82
+18,PIB,0.09486781,1,1.53
+19,Formação anterior,0.08929279,6,1.44
+20,Disciplinas creditadas (1º sem.),0.08912203,1,1.44
+21,Ocupação da mãe,0.082067534,11,1.33
+22,Escolaridade da mãe,0.060308766,8,0.97
+23,Escolaridade do pai,0.059558358,8,0.96
+24,Avaliações realizadas (1º sem.),0.05886703,1,0.95
+25,Média das notas (1º sem.),0.05865169,1,0.95
+26,Ordem de opção do curso,0.038585953,1,0.62
+27,Disciplinas creditadas (2º sem.),0.0358336,1,0.58
+28,Taxa de inflação,0.023332302,1,0.38
+29,Estudante internacional,0.008400441,1,0.14
+30,Disciplinas sem avaliação (1º sem.),0.00572254,1,0.09
+31,Disciplinas sem avaliação (2º sem.),0.0031667538,1,0.05
+32,Nacionalidade,0.0012291485,2,0.02
+33,Turno (diurno/noturno),0.0,1,0.0
+34,Necessidades educacionais especiais,0.0,1,0.0
+35,Estado civil,0.0,4,0.0

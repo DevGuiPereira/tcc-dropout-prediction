@@ -1,0 +1,7 @@
+posicao,grupo,n_features,impacto_medio,% do total
+1,Desempenho acadêmico,12,2.408941,59.9
+2,Situação financeira,3,0.59916264,14.9
+3,Trajetória de ingresso,36,0.38085458,9.5
+4,Perfil demográfico,11,0.22916044,5.7
+5,Contexto macroeconômico,3,0.2066309,5.1
+6,Origem familiar,40,0.19601806,4.9

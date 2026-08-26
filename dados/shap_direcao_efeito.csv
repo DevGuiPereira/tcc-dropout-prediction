@@ -1,0 +1,16 @@
+posicao,variavel,impacto_medio,rho_valor_x_shap,efeito de valor alto
+1,Disciplinas aprovadas (2º sem.),1.5425152,-0.9667486461617618,REDUZ o risco
+2,Disciplinas aprovadas (1º sem.),0.8258287,-0.9564047270780921,REDUZ o risco
+3,Mensalidades em dia,0.42322862,-0.6043479561915365,REDUZ o risco
+4,Disciplinas matriculadas (1º sem.),0.39175084,0.7179834827392341,AUMENTA o risco
+5,Média das notas (2º sem.),0.25089246,-0.8944154914335557,REDUZ o risco
+6,Bolsista,0.24191546,-0.7393815840855352,REDUZ o risco
+7,Nota de admissão,0.24009326,0.25410938119612936,não monotônico
+8,Idade no ingresso,0.20324282,0.7863818084731975,AUMENTA o risco
+9,Taxa de desemprego,0.17985106,0.9429411443476244,AUMENTA o risco
+10,Inadimplente,0.17582443,0.5540278625798883,AUMENTA o risco
+11,Avaliações realizadas (2º sem.),0.1691706,0.6390762586559809,AUMENTA o risco
+12,Deslocado da cidade de origem,0.1424498,0.8607544138275838,AUMENTA o risco
+13,Gênero,0.1147556,0.8473655221860962,AUMENTA o risco
+14,Disciplinas matriculadas (2º sem.),0.11399934,0.7427748764086386,AUMENTA o risco
+15,Curso = 9853,0.09647422,0.34473843303387286,AUMENTA o risco

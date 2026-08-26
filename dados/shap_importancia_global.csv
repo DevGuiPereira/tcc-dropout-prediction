@@ -1,0 +1,106 @@
+posicao,variavel,shap_medio_abs,% do total,% acumulado
+1,Disciplinas aprovadas (2º sem.),1.5425156,23.38,23.38
+2,Disciplinas aprovadas (1º sem.),0.8258286,12.52,35.9
+3,Mensalidades em dia,0.42322856,6.42,42.32
+4,Disciplinas matriculadas (1º sem.),0.39175075,5.94,48.26
+5,Média das notas (2º sem.),0.2508925,3.8,52.06
+6,Bolsista,0.24191539,3.67,55.73
+7,Nota de admissão,0.24009322,3.64,59.37
+8,Idade no ingresso,0.20324284,3.08,62.45
+9,Taxa de desemprego,0.17985098,2.73,65.18
+10,Inadimplente,0.17582448,2.67,67.85
+11,Avaliações realizadas (2º sem.),0.16917056,2.56,70.41
+12,Deslocado da cidade de origem,0.1424498,2.16,72.57
+13,Gênero,0.11475559,1.74,74.31
+14,Disciplinas matriculadas (2º sem.),0.11399939,1.73,76.04
+15,Curso = 9853,0.09647415,1.46,77.5
+16,PIB,0.0948678,1.44,78.94
+17,Disciplinas creditadas (1º sem.),0.089122005,1.35,80.29
+18,Nota da formação anterior,0.08679079,1.32,81.61
+19,Modalidade de ingresso = 1,0.08104056,1.23,82.84
+20,Curso = 9238,0.07312038,1.11,83.95
+21,Avaliações realizadas (1º sem.),0.058867052,0.89,84.84
+22,Média das notas (1º sem.),0.058651675,0.89,85.73
+23,Curso = 9773,0.058431957,0.89,86.62
+24,Ocupação da mãe = 9,0.049217086,0.75,87.37
+25,Ocupação do pai = 9,0.046631947,0.71,88.08
+26,Curso = 9119,0.04572502,0.69,88.77
+27,Ocupação do pai = 6,0.040796265,0.62,89.39
+28,Ordem de opção do curso,0.03858596,0.58,89.97
+29,Escolaridade do pai = 1,0.036333453,0.55,90.52
+30,Disciplinas creditadas (2º sem.),0.035833623,0.54,91.06
+31,Escolaridade da mãe = 3,0.030347727,0.46,91.52
+32,Ocupação do pai = 4,0.029671196,0.45,91.97
+33,Modalidade de ingresso = outras (raras),0.026862297,0.41,92.38
+34,Curso = 9670,0.026516417,0.4,92.78
+35,Modalidade de ingresso = 17,0.02463251,0.37,93.15
+36,Curso = 9085,0.02431666,0.37,93.52
+37,Ocupação da mãe = 4,0.024282372,0.37,93.89
+38,Taxa de inflação,0.023332296,0.35,94.24
+39,Escolaridade da mãe = 34,0.023165897,0.35,94.59
+40,Ocupação do pai = 90,0.021334974,0.32,94.91
+41,Curso = 171,0.021279316,0.32,95.23
+42,Modalidade de ingresso = 44,0.020184737,0.31,95.54
+43,Escolaridade do pai = 3,0.019658538,0.3,95.84
+44,Curso = 8014,0.019355886,0.29,96.13
+45,Ocupação da mãe = 0,0.018811839,0.29,96.42
+46,Escolaridade do pai = 38,0.017489139,0.27,96.69
+47,Ocupação do pai = 5,0.016694304,0.25,96.94
+48,Ocupação da mãe = 5,0.016530596,0.25,97.19
+49,Ocupação do pai = outras (raras),0.01627562,0.25,97.44
+50,Escolaridade da mãe = 19,0.015409352,0.23,97.67
+51,Curso = 9130,0.015291441,0.23,97.9
+52,Curso = 9991,0.012899383,0.2,98.1
+53,Modalidade de ingresso = 39,0.012428038,0.19,98.29
+54,Ocupação do pai = 1,0.009849357,0.15,98.44
+55,Escolaridade do pai = 19,0.009535358,0.14,98.58
+56,Ocupação da mãe = 2,0.008761245,0.13,98.71
+57,Estudante internacional,0.008400439,0.13,98.84
+58,Escolaridade do pai = 2,0.0057959007,0.09,98.93
+59,Disciplinas sem avaliação (1º sem.),0.005722536,0.09,99.02
+60,Escolaridade da mãe = 1,0.00552443,0.08,99.1
+61,Formação anterior = 19,0.0053111915,0.08,99.18
+62,Ocupação do pai = 8,0.0052595586,0.08,99.26
+63,Formação anterior = 3,0.0051419334,0.08,99.34
+64,Curso = 9147,0.0045521567,0.07,99.41
+65,Ocupação do pai = 0,0.004491446,0.07,99.48
+66,Ocupação da mãe = 3,0.0037485654,0.06,99.54
+67,Formação anterior = 1,0.0036463786,0.06,99.6
+68,Ocupação do pai = 10,0.003353049,0.05,99.65
+69,Escolaridade da mãe = outras (raras),0.003206425,0.05,99.7
+70,Disciplinas sem avaliação (2º sem.),0.0031667452,0.05,99.75
+71,Ocupação do pai = 7,0.0030655253,0.05,99.8
+72,Ocupação do pai = 2,0.0026781887,0.04,99.84
+73,Modalidade de ingresso = 7,0.0022801568,0.03,99.87
+74,Ocupação da mãe = outras (raras),0.0022396496,0.03,99.9
+75,Curso = 9254,0.002201207,0.03,99.93
+76,Ocupação do pai = 3,0.0018395315,0.03,99.96
+77,Nacionalidade = 1,0.0012291434,0.02,99.98
+78,Ocupação da mãe = 90,0.001037181,0.02,100.0
+79,Formação anterior = outras (raras),0.000938405,0.01,100.01
+80,Escolaridade da mãe = 37,0.0009054663,0.01,100.02
+81,Modalidade de ingresso = 43,0.0005425915,0.01,100.03
+82,Turno (diurno/noturno),0.0,0.0,100.03
+83,Modalidade de ingresso = 42,0.0,0.0,100.03
+84,Modalidade de ingresso = 18,0.0,0.0,100.03
+85,Estado civil = 4,0.0,0.0,100.03
+86,Estado civil = 2,0.0,0.0,100.03
+87,Estado civil = 1,0.0,0.0,100.03
+88,Estado civil = outras (raras),0.0,0.0,100.03
+89,Necessidades educacionais especiais,0.0,0.0,100.03
+90,Modalidade de ingresso = 51,0.0,0.0,100.03
+91,Escolaridade da mãe = 38,0.0,0.0,100.03
+92,Formação anterior = 39,0.0,0.0,100.03
+93,Nacionalidade = outras (raras),0.0,0.0,100.03
+94,Curso = outras (raras),0.0,0.0,100.03
+95,Curso = 9070,0.0,0.0,100.03
+96,Curso = 9556,0.0,0.0,100.03
+97,Curso = 9500,0.0,0.0,100.03
+98,Curso = 9003,0.0,0.0,100.03
+99,Escolaridade da mãe = 2,0.0,0.0,100.03
+100,Ocupação da mãe = 7,0.0,0.0,100.03
+101,Ocupação da mãe = 6,0.0,0.0,100.03
+102,Escolaridade do pai = 37,0.0,0.0,100.03
+103,Escolaridade do pai = 34,0.0,0.0,100.03
+104,Ocupação da mãe = 1,0.0,0.0,100.03
+105,Escolaridade do pai = outras (raras),0.0,0.0,100.03

@@ -1,0 +1,101 @@
+{
+  "A — alto risco (correto)": {
+    "indice_teste": 181,
+    "situacao_real": "Dropout",
+    "predicao": "Dropout",
+    "probabilidade_evasao": 0.9996331930160522,
+    "principais_fatores": [
+      {
+        "variavel": "Disciplinas aprovadas (2º sem.)",
+        "shap": 2.2908999919891357,
+        "direcao": "aumenta o risco"
+      },
+      {
+        "variavel": "Mensalidades em dia",
+        "shap": 1.552899956703186,
+        "direcao": "aumenta o risco"
+      },
+      {
+        "variavel": "Disciplinas aprovadas (1º sem.)",
+        "shap": 0.9659000039100647,
+        "direcao": "aumenta o risco"
+      },
+      {
+        "variavel": "Inadimplente",
+        "shap": 0.7736999988555908,
+        "direcao": "aumenta o risco"
+      },
+      {
+        "variavel": "Disciplinas matriculadas (1º sem.)",
+        "shap": 0.48420000076293945,
+        "direcao": "aumenta o risco"
+      }
+    ]
+  },
+  "B — baixo risco (correto)": {
+    "indice_teste": 101,
+    "situacao_real": "Graduate",
+    "predicao": "Graduate",
+    "probabilidade_evasao": 0.003744125599041581,
+    "principais_fatores": [
+      {
+        "variavel": "Disciplinas aprovadas (2º sem.)",
+        "shap": -1.4052000045776367,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Bolsista",
+        "shap": -0.5604000091552734,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Disciplinas aprovadas (1º sem.)",
+        "shap": -0.553600013256073,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Ocupação do pai = 6",
+        "shap": -0.5386000275611877,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Curso = 9238",
+        "shap": -0.4194999933242798,
+        "direcao": "reduz o risco"
+      }
+    ]
+  },
+  "C — falso negativo": {
+    "indice_teste": 543,
+    "situacao_real": "Dropout",
+    "predicao": "Graduate",
+    "probabilidade_evasao": 0.022552182897925377,
+    "principais_fatores": [
+      {
+        "variavel": "Disciplinas aprovadas (2º sem.)",
+        "shap": -1.6095000505447388,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Disciplinas aprovadas (1º sem.)",
+        "shap": -1.184999942779541,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Disciplinas matriculadas (1º sem.)",
+        "shap": 0.43639999628067017,
+        "direcao": "aumenta o risco"
+      },
+      {
+        "variavel": "Taxa de desemprego",
+        "shap": -0.3109999895095825,
+        "direcao": "reduz o risco"
+      },
+      {
+        "variavel": "Média das notas (2º sem.)",
+        "shap": -0.21690000593662262,
+        "direcao": "reduz o risco"
+      }
+    ]
+  }
+}
