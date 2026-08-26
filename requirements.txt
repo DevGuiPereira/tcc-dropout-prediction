@@ -14,6 +14,9 @@ imbalanced-learn==0.14.2
 # --- Interpretabilidade ------------------------------------------------------
 shap==0.52.0
 
+# --- Inferencia estatistica (NB7 e NB8: McNemar, diferenca de proporcoes) ----
+statsmodels==0.14.6
+
 # --- Visualização ------------------------------------------------------------
 matplotlib==3.11.1
 seaborn==0.13.2
