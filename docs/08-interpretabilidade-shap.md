@@ -1,6 +1,6 @@
 # 08 — Interpretabilidade com SHAP (Fase 5 do CRISP-DM)
 
-> **Notebook:** `04_interpretabilidade_shap.ipynb` (49 células — 20 de código, 29 de markdown)
+> **Notebook:** `04_interpretabilidade_shap.ipynb` (53 células — 28 de código, 29 de markdown)
 > **Entrada:** `modelos/melhor_modelo.joblib` (XGBoost) + `dados/X_test.csv`
 > **Saídas:** 5 CSVs, valores SHAP completos em `.npz`, casos individuais em JSON, 13 figuras
 
@@ -401,7 +401,8 @@ regular.
 > evasões** — problemas de saúde, mudança de cidade, questões familiares, oferta de emprego, escolha de
 > outro curso.
 >
-> Nenhum ajuste de modelagem recuperaria os **29 falsos negativos**. Ampliar o conjunto de variáveis é a
+> Nenhum ajuste de modelagem recuperaria os **29 falsos negativos** desta partição — 44 em uma
+> partição típica, pela [Verificação 2](10-significancia.md). Ampliar o conjunto de variáveis é a
 > única via, e mesmo assim parcialmente.
 >
 > Isso deve constar na monografia como **limite intrínseco do problema**, não como deficiência do
@@ -409,6 +410,84 @@ regular.
 > **auxílio à priorização**, nunca como veredito. **Um aluno não sinalizado não é um aluno seguro.**
 
 ---
+
+
+### O caso C é típico do grupo? A verificação agregada
+
+Descrever um aluno e concluir que existe um teto intrínseco é inferência a partir de **n = 1**. A
+objeção é legítima e foi testada: o perfil dos **29 falsos negativos** foi comparado ao dos evadidos
+que o modelo **detectou** e ao dos formandos.
+
+| Variável | Falsos negativos | Evadidos detectados | Formandos | Parece com |
+|---|---:|---:|---:|---|
+| Disciplinas aprovadas (2º sem.) | **6,24** | 1,23 | 6,10 | formando |
+| Disciplinas aprovadas (1º sem.) | **6,76** | 1,82 | 6,12 | formando |
+| Média das notas (2º sem.) | **12,37** | 5,00 | 12,55 | formando |
+| Mensalidades em dia | **0,97** | 0,62 | 0,99 | formando |
+| Inadimplente | **0,07** | 0,24 | 0,05 | formando |
+| Idade no ingresso | 24,55 | 26,39 | 21,60 | evadido |
+| Bolsista | 0,07 | 0,09 | 0,33 | evadido |
+
+**Em 5 das 7 variáveis-chave o falso negativo médio está mais próximo do formando do que do evadido
+detectado.** O caso C não é exceção: é retrato do grupo. Persistido em
+`dados/perfil_falsos_negativos.csv`.
+
+Duas variáveis fogem do padrão, e são informativas: os falsos negativos são **menos bolsistas** (7%
+contra 33% dos formandos) e **mais velhos no ingresso** (24,6 contra 21,6 anos). Parecem formandos no
+desempenho acadêmico e na situação financeira corrente, mas carregam marcadores demográficos de risco
+que o modelo pondera pouco — corretamente, porque isoladamente eles predizem mal.
+
+### Ressalva específica dos casos individuais
+
+Esta ressalva é **distinta** da ressalva de partição aplicada aos números agregados, e não é coberta
+por ela.
+
+Os casos A, B e C são **alunos específicos da partição da semente 42** — índices 181, 101 e 543 —
+escolhidos como o extremo de cada categoria. Devem ser apresentados como **ilustração de um perfil**,
+nunca como "o aluno que o modelo não detecta".
+
+**O perfil do grupo é estável.** Nas 10 sementes, os falsos negativos se parecem mais com formandos do
+que com evadidos detectados em 5 a 7 das 7 variáveis, e a média de aprovações no 2º semestre fica entre
+5,2 e 6,2 em todas elas.
+
+### Existe um núcleo duro de alunos persistentemente não detectados
+
+Repetindo o pipeline em 10 sementes, 216 alunos distintos foram falso negativo em ao menos uma
+partição. Contar quantos foram errados **nas dez** não responde à pergunta: com teste de 20%, um aluno
+aparece em cerca de 2 das 10 partições, de modo que "errado nas dez" é quase impossível **por
+construção do split**, não por comportamento do modelo.
+
+A medida correta é **condicional** — erros divididos pelas vezes em que o aluno foi efetivamente
+testado como evadido:
+
+| Taxa condicional de falso negativo | Alunos | % |
+|---|---:|---:|
+| Nunca errado (0%) | 398 | 80,7% |
+| Baixa (0 < t ≤ 30%) | 4 | 0,8% |
+| Intermediária (30–99%) | 23 | 4,7% |
+| **Sempre errado (100%)** | **68** | **13,8%** |
+
+*Base: 493 evadidos que apareceram no conjunto de teste ao menos 3 vezes nas 10 partições. Persistido
+em `dados/taxa_condicional_falsos_negativos.csv`.*
+
+**A distribuição é bimodal.** Não há gradiente de dificuldade: 80,7% nunca são errados, 13,8% são
+errados sempre, e menos de 6% ocupam posições intermediárias. Erro aleatório produziria concentração em
+torno da média, não dois polos.
+
+**O teste que fecha o argumento.** Se o erro fosse ruído distribuído à taxa global de 15,6%,
+esperar-se-iam **1,3** alunos com taxa condicional de 100%. Observam-se **68** — cerca de **54 vezes
+mais**. Três deles apareceram no teste cinco vezes e não foram detectados em nenhuma.
+
+**Conclusão.** O erro do modelo **não é ruído distribuído entre os evadidos**: concentra-se num
+subconjunto identificável e estável. Existe um núcleo duro persistentemente não detectado, e é ele —
+não a variação amostral — que sustenta a afirmação de teto intrínseco. A afirmação fica **mais forte**,
+não mais fraca: o teto tem endereço.
+
+**Para a monografia:** a conclusão sobre o teto intrínseco pode ser afirmada, porque se apoia no perfil
+agregado e estável. A descrição do caso C deve ser apresentada como **ilustração de um perfil**, nunca
+como "o aluno que o modelo não consegue detectar" — esse aluno, em outra partição, provavelmente seria
+detectado.
+
 
 ## 9. Convergência entre os três métodos
 
@@ -533,7 +612,8 @@ três principais fatores do aluno, e o encaminhamento seguir o fator dominante:
 
 ### R-6 · Comunicar o sistema como priorização, nunca como veredito
 
-Os **29 falsos negativos** mostram que há evasões cujas causas não estão nos dados.
+Os **29 falsos negativos** desta partição — 44 numa partição típica — mostram que há evasões cujas
+causas não estão nos dados.
 
 - **Ação:** treinar a coordenação para tratar a lista como priorização de atenção limitada, mantendo os
   canais tradicionais de acolhimento ativos para quem não aparece nela.
@@ -621,7 +701,8 @@ Duas evidências sustentam essa ordem:
    marginal nula e é a 9ª mais importante. A análise descritiva isolada levaria a conclusões erradas
    sobre as três.
 
-5. **O falso negativo revela um teto intrínseco.** As causas de parte das evasões não estão nos dados;
+5. **O falso negativo revela um teto intrínseco.** Verificado no agregado, não só no caso C: os 29
+   falsos negativos parecem formandos em 5 das 7 variáveis-chave. As causas de parte das evasões não estão nos dados;
    nenhum ajuste de modelagem recuperaria esses 29 alunos.
 
 ### O que a interpretabilidade acrescentou

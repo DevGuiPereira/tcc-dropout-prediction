@@ -26,7 +26,8 @@ que é precisamente a população excluída do treino.
 
 **Por que isso importa.** Não é apenas uma questão de tamanho de amostra. Alunos ativos podem diferir
 sistematicamente dos que já concluíram sua trajetória — trancamentos, reprovações acumuladas e
-mudanças de curso produzem perfis que o treino não contém. O desempenho de 0,906 de F1 é uma estimativa
+mudanças de curso produzem perfis que o treino não contém. O desempenho de 0,906 de F1 — que é o da
+partição da semente 42; em partições típicas, ≈ 0,88 pela [Verificação 2](10-significancia.md) — é uma estimativa
 válida **para a população de trajetórias concluídas**, e não há garantia de que se mantenha na população
 de aplicação.
 
@@ -36,6 +37,26 @@ permitindo reportá-la como análise de sensibilidade. A limitação está regis
 
 **O que seria necessário para resolver.** Modelagem de sobrevivência com dados censurados — ver
 [TF-01](#tf-01-modelagem-de-sobrevivência-com-dados-censurados).
+
+---
+
+### L-01b: Um núcleo duro de evadidos que o modelo não detecta
+
+Entre os 493 evadidos que apareceram no conjunto de teste ao menos 3 vezes nas 10 partições,
+**68 (13,8%) foram classificados errado em 100% das vezes**. A distribuição da taxa condicional de erro
+é **bimodal** — 80,7% nunca errados, 13,8% sempre errados, menos de 6% no meio —, e erro aleatório à
+taxa global de 15,6% produziria apenas 1,3 alunos nessa condição.
+
+**Por que isso importa.** O erro do modelo não é ruído distribuído entre os evadidos: concentra-se num
+subconjunto identificável e estável. Cerca de um em cada sete evadidos é sistematicamente invisível
+para este conjunto de variáveis, e nenhuma escolha de algoritmo ou de limiar o alcança.
+
+**O que foi feito a respeito.** O achado está medido e documentado ([doc 08](08-interpretabilidade-shap.md)),
+com o artefato `dados/taxa_condicional_falsos_negativos.csv`. Ele **fortalece** a afirmação de teto
+intrínseco, que antes se apoiava em um único caso ilustrativo.
+
+**O que seria necessário para resolver.** Ampliar o conjunto de variáveis — ver
+[TF-10](#tf-10-caracterizar-o-núcleo-duro-de-evadidos-não-detectados).
 
 ---
 
@@ -119,7 +140,7 @@ classificadores no mesmo conjunto de teste).
 a conclusão central é que **os modelos são equivalentes**, e um teste que confirmasse equivalência
 estatística **reforçaria** essa tese em vez de contrariá-la.
 
-O empate exato entre Random Forest e XGBoost (matriz 418/24/29/255) é, por si só, evidência forte de
+O empate exato entre Random Forest e XGBoost (matriz 418/24/29/255 na partição da semente 42) é, por si só, evidência forte de
 equivalência prática.
 
 ---
@@ -455,6 +476,28 @@ pedagógico).
 **Viabilidade:** alta — `preprocessador.joblib` + `melhor_modelo.joblib` já bastam; Streamlit ou FastAPI
 resolveriam a interface.
 **Impacto:** alto em demonstração e em potencial de continuidade do trabalho.
+
+---
+
+### TF-10: Caracterizar o núcleo duro de evadidos não detectados
+
+A [L-01b](#l-01b-um-núcleo-duro-de-evadidos-que-o-modelo-não-detecta) mostrou que 13,8% dos evadidos
+são classificados errado em **100%** das vezes em que aparecem no teste. Sabe-se que existem e quantos
+são; **não se sabe o que os distingue** dos demais falsos negativos nem dos evadidos que o modelo
+detecta.
+
+A investigação natural é comparar esses 68 alunos com os outros dois grupos nas 36 variáveis, e
+verificar se compartilham o perfil "protetor" descrito no [doc 08](08-interpretabilidade-shap.md) ou se
+formam um padrão próprio. Se houver padrão próprio, ele indica **quais variáveis faltam** ao conjunto
+atual — que é a única via para elevar o teto intrínseco.
+
+**Viabilidade:** alta — `dados/taxa_condicional_falsos_negativos.csv` já identifica os alunos; a
+comparação é descritiva.
+**Impacto:** alto — é o caminho direto para saber que dados a instituição precisaria coletar.
+
+> Esta investigação foi **deliberadamente não realizada** neste trabalho. A verificação que revelou o
+> núcleo duro foi a última da fase de análise, e abrir a caracterização exigiria uma nova rodada de
+> testes — decisão registrada na rodada 3f do [changelog](12-revisao-final.md).
 
 ---
 
