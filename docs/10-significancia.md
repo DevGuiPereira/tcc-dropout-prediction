@@ -155,10 +155,13 @@ diferentes** — a Regressão Logística em 0,933 e o XGBoost em 0,898. O teste 
 igualado ajustando o limiar de um dos modelos; é exatamente o que a §9 do [doc 04](04-modelagem.md)
 investiga, com a curva de custo exata de cada modelo.
 
-**E a resposta é que, igualados os pontos de operação, a vantagem se inverte na faixa prática:** o
-XGBoost detecta mais evadidos pelo mesmo custo em **31 de 31** pontos com recall ≤ 0,958. A vantagem da
-Regressão Logística se restringe a uma banda estreita (recall 0,961–0,972) que exige convocar metade da
-turma.
+**E a resposta é que, igualados os pontos de operação, a vantagem se inverte na maior parte da faixa
+operável:** o XGBoost detecta mais evadidos pelo mesmo custo em **31 de 31** pontos na faixa de recall
+0,852–0,9577, e em **72 dos 76 pontos decididos** abaixo do teto de convocação de 50%.
+
+Os 4 pontos restantes pertencem à Regressão Logística (recall 0,961–0,972) e convocam de 47% a 49% da
+turma — ou seja, **dentro** do teto, nos últimos pontos percentuais antes dele. A vantagem do modelo
+linear não está fora da faixa operável; está espremida no seu limite superior.
 
 **Isso não invalida a escolha do XGBoost** — ao contrário, a reforça. As razões:
 

@@ -4,6 +4,13 @@
 > **Motivação:** verificar se a análise de limiar de decisão do [doc 04](04-modelagem.md), §10, se
 > sustenta — ela trata a saída do XGBoost como probabilidade real de evasão.
 > **Saída:** `figuras/22_curva_calibracao.png`
+
+> **Convenção de partição — vale para todas as tabelas deste documento.** Salvo indicação em
+> contrário, todo número de desempenho vem da **partição da semente 42**. A
+> [Verificação 2](10-significancia.md) mostrou que essa partição é **favorável**: em partições típicas
+> o F1 é ≈ 0,88 (não 0,9059), o modelo detecta **84 de cada 100** evadidos (não 90, faixa 82–86) e
+> perde 44 em vez de 29. A precisão não apresenta esse viés. **Comparações entre modelos permanecem
+> válidas**, porque todos são avaliados sobre exatamente os mesmos alunos.
 > **Resultado:** o modelo original é mantido; a linguagem probabilística recebe ressalva.
 
 ---
@@ -136,14 +143,36 @@ numérico atribuído a cada um.
 O modelo original em `modelos/melhor_modelo.joblib` permanece **inalterado**, e nenhum artefato novo de
 modelo foi gravado. Três razões:
 
-1. **O ganho é desprezível.** O Brier melhora **0,0004** com isotonic — e o Brier é a métrica
-   apropriada, porque é uma *regra de pontuação própria*: penaliza calibração e discriminação
-   conjuntamente. O sigmoid, inclusive, **piora** tanto o Brier quanto o ECE.
-2. **A calibração não resolve o problema real.** A miscalibração se concentra na faixa central, pouco
-   populada; nem o isotonic nem o sigmoid têm dados suficientes ali para corrigir de forma confiável.
-   Ambos deixam o erro praticamente onde estava.
-3. **Introduziria uma camada a mais sem benefício mensurável**, contra a orientação de manter o
-   pipeline auditável.
+1. **A calibração é monotônica e por isso não muda decisão alguma.** É a razão decisiva. O ROC-AUC é
+   idêntico nos três casos porque a transformação preserva a ordenação dos alunos. Como a convocação
+   sai de um limiar aplicado sobre essa ordenação, **exatamente os mesmos alunos seriam chamados**.
+   Muda o número colado no aluno, não quem é atendido.
+2. **O ganho existe, mas é pequeno e desigual — e precisa ser reportado como tal.** Dizer "desprezível"
+   seria impreciso: o isotonic reduz o ECE de 0,1052 para 0,0880, **16% em termos relativos**. Já o
+   Brier melhora apenas 0,0004 — e o Brier é a métrica apropriada, por ser uma *regra de pontuação
+   própria*, que penaliza calibração e discriminação conjuntamente. O sigmoid **piora** as duas.
+3. **Nenhum dos dois corrige a faixa que motivou a análise.** Este é o teste que decide, e está
+   medido abaixo.
+
+### O teste decisivo: a recalibração conserta a faixa [0,10–0,20)?
+
+A faixa que motivou toda a análise reúne **81 alunos, 11% do conjunto de teste**, com taxa real de
+evasão de **2,5%** e escore médio de 14,2%. A pergunta objetiva é se algum método de calibração a
+corrige:
+
+| Método | Escore médio na faixa | Erro contra a realidade |
+|---|---:|---:|
+| sem calibração | 14,2% | +11,8 pp |
+| sigmoid (Platt) | 10,9% | +8,4 pp |
+| isotonic | 13,2% | +10,7 pp |
+
+**Nenhum corrige.** O sigmoid é o que mais reduz o erro nessa faixa específica — 3,4 pontos
+percentuais —, mas é justamente o método que piora Brier e ECE no agregado. O isotonic, melhor no
+agregado, quase não toca nesta faixa.
+
+Vale registrar onde o isotonic de fato ajuda: nas faixas altas, que são as operacionalmente
+relevantes. Em [0,5–0,7) o erro cai de +15,8 pp para +9,1 pp, e em [0,9–1,0) de −1,9 pp para −1,0 pp.
+Mesmo assim, pela razão 1, isso não altera quem é convocado.
 
 Reproduzir a versão calibrada exige apenas as duas linhas da seção 4 do notebook, caso se queira
 reportá-la como análise de sensibilidade.
@@ -200,7 +229,7 @@ sistemática** o risco médio (+3,7 pp), efeito esperado do treino balanceado po
 | Probabilidade média vs taxa real | superestima em 3,7 pp, **fora** do IC de 95% |
 | Faixas com miscalibração detectável | 3 de 10 — duas irrelevantes (ruído ou desvio de 2 pp); uma **material**: [0,1 – 0,2), com 81 alunos |
 | Distribuição das probabilidades | **bimodal** — 68,6% dos alunos nos extremos, onde a calibração é quase perfeita |
-| Calibração posterior | ganho de Brier desprezível (0,0004); ROC-AUC inalterado |
+| Calibração posterior | isotonic reduz o ECE em 16% (0,1052 → 0,0880), mas o Brier só 0,0004, não corrige a faixa [0,10–0,20) e, sendo monotônica, não altera nenhuma decisão |
 | **Decisão** | **manter o modelo original**; adicionar ressalva à linguagem probabilística |
 
 ### Para a monografia

@@ -1,9 +1,16 @@
 # 04 — Modelagem (Fase 4 do CRISP-DM)
 
-> **Notebook:** `03_treinamento_modelos.ipynb` (44 células — 26 de código, 18 de markdown)
+> **Notebook:** `03_treinamento_modelos.ipynb` (50 células — 30 de código, 20 de markdown)
 > **Entrada:** artefatos da Fase 3
 > **Saídas:** 4 modelos `.joblib`, `metricas_modelos.csv`, `analise_limiar.csv`,
 > `info_melhor_modelo.json`, figuras 08–11
+
+> **Convenção de partição — vale para todas as tabelas deste documento.** Salvo indicação em
+> contrário, todo número de desempenho vem da **partição da semente 42**. A
+> [Verificação 2](10-significancia.md) mostrou que essa partição é **favorável**: em partições típicas
+> o F1 é ≈ 0,88 (não 0,9059), o modelo detecta **84 de cada 100** evadidos (não 90, faixa 82–86) e
+> perde 44 em vez de 29. A precisão não apresenta esse viés. **Comparações entre modelos permanecem
+> válidas**, porque todos são avaliados sobre exatamente os mesmos alunos.
 
 ---
 
@@ -277,12 +284,12 @@ fracos, e é a sequência de correções que constrói a capacidade do modelo.
 
 ### Teste
 
-| Métrica | Valor |
-|---|---:|
-| Acurácia | 0,9270 |
-| Precisão | 0,9140 |
-| Recall | 0,8979 |
-| **F1** | **0,9059** |
+| Métrica | Semente 42 | Partição típica |
+|---|---:|---:|
+| Acurácia | 0,9270 | — |
+| Precisão | 0,9140 | 0,9191 |
+| Recall | 0,8979 | **0,8437** |
+| **F1** | **0,9059** | **≈ 0,88** |
 | **ROC-AUC** | **0,9747** |
 | **PR-AUC** | **0,9741** |
 | MCC | 0,8463 |
@@ -362,6 +369,12 @@ Concordância dos três simultaneamente: **661 de 726 alunos (91,0%)**.
 > os erros de um compensam exatamente os do outro no agregado. Não são o mesmo modelo; são dois modelos
 > diferentes com o mesmo placar.
 
+A compensação é literal: **dos 24 alunos em que discordam, o Random Forest acerta 12 e o XGBoost acerta
+os outros 12.** As probabilidades atribuídas também diferem — correlação de 0,9712 entre os dois
+modelos, com diferença média absoluta de 0,0768 por aluno. O empate nas quatro casas decimais é
+consequência dessa compensação exata, não de erro de transcrição entre linhas da tabela; a conferência
+célula a célula (TN 418, FP 24, FN 29, VP 255 nos dois) é reexecutável.
+
 ### Um achado que vale para a monografia
 
 Isso ilustra um **limite das métricas agregadas** que costuma passar em branco: elas resumem o placar,
@@ -404,7 +417,7 @@ E a [Verificação 2](10-significancia.md) mostrou que a tensão não é retóri
 restrito aos 284 evadidos, a **Regressão Logística detecta significativamente mais evadidos** que o
 XGBoost (p = 0,034) e que o Random Forest (p = 0,044).
 
-| | Regressão Logística | XGBoost |
+| Partição da semente 42 | Regressão Logística | XGBoost |
 |---|---:|---:|
 | Evadidos detectados | **265** de 284 | 255 de 284 |
 | Evadidos perdidos | **19** | 29 |
@@ -487,23 +500,48 @@ A varredura completa dos pontos alcançáveis revela **três regiões distintas*
 |---|---|---:|---|---|
 | **Estável** | 0,852 – 0,9577 | 31 | **XGBoost em 31 de 31** | 34% a 46% da turma |
 | **Banda estreita** | 0,9613 – 0,9718 | 4 | **Reg. Logística em 4 de 4** | 47% a 49% da turma |
-| **Instável** | ≥ 0,9754 | 8 | oscila — **3 inversões** | 59% a 94% da turma |
+| **Instável** | ≥ 0,9754 | 8 | oscila — 3 travessias de liderança | 59% a 94% da turma |
 
-**A manchete:** o XGBoost vence em **31 de 31** pontos de operação na faixa prática (recall ≤ 0,958);
-acima disso a ordenação oscila (3 inversões) e a operação deixa de ser útil, convocando de 45% a 94% da
-turma.
+*Convenção da coluna “Convocados”: o intervalo considera **os dois modelos** — o menor e o maior número
+de convocados entre XGBoost e Regressão Logística em cada região. Considerando apenas o XGBoost, os
+intervalos seriam 34%–45%, 47%–49% e 59%–91%. A conclusão sobre o teto não muda em nenhuma das duas
+convenções.*
 
-**Mas seria desonesto esconder a banda estreita.** Entre recall 0,9613 e 0,9718 — quatro pontos
-consecutivos — a Regressão Logística é **consistentemente** melhor, por 1 a 11 falsos alarmes. Não é
-oscilação ali; é uma vantagem real, num regime que exige convocar praticamente metade da turma.
+**A manchete, enunciada com o cuidado que ela exige:** na faixa de recall 0,852 a 0,9577 o XGBoost
+vence em **31 de 31** pontos de operação, convocando de 34% a 46% da turma.
 
-As três inversões, para quem quiser verificar:
+**A banda estreita está DENTRO do teto prático — e isso precisa ser dito.** Os quatro pontos em que a
+Regressão Logística vence convocam de **47% a 49%**, abaixo do teto de 50% adotado ao final desta
+mesma seção. Seria incorreto descartá-los como regime inútil: são os últimos quatro pontos antes do
+teto. A contabilidade completa abaixo da fronteira prática:
+
+| Sob o teto de 50% — até 363 convocados | Pontos |
+|---|---:|
+| Decididos (há diferença de custo entre os modelos) | 76 |
+| **XGBoost melhor** | **72** |
+| **Regressão Logística melhor** | **4** |
+| Empatados (mesmo custo nos dois modelos) | 200 |
+
+**O teto escolhido não altera esse quadro.** Com 62% em vez de 50%, a contagem passa a 74 × 4 — as
+mesmas quatro inversões, porque o segundo bloco só começa a 66% de convocação. A conclusão é robusta à
+escolha da fronteira.
+
+**Sobre a contagem de inversões.** A curva tem **9 pontos** em que a Regressão Logística é melhor
+(273 a 276 e 279 a 283). O número **3** conta *travessias de liderança* — os pontos em que o modelo
+vencedor muda —, não pontos vencidos. As duas contagens são corretas, mas ler "3 inversões" como
+"3 pontos" subestima em três vezes.
+
+As três travessias, para quem quiser verificar:
 
 | Detectados | Recall | XGBoost (FA) | Reg. Logística (FA) | Passa a favorecer |
 |---:|---:|---:|---:|---|
 | 273 | 0,9613 | 70 | 69 | Reg. Logística |
 | 277 | 0,9754 | 154 | 163 | XGBoost |
 | 279 | 0,9824 | 203 | 181 | Reg. Logística |
+
+Uma quarta travessia ocorre em 284 detectados (recall 1,0), ponto degenerado que exige convocar
+praticamente toda a turma — 91% pelo XGBoost, 94% pela Regressão Logística. Foi excluída da contagem
+por não ter significado operacional.
 
 Acima de recall 0,975 cada evadido adicional custa dezenas de convocações, e a ordenação entre os
 modelos depende de um punhado de alunos individuais.
@@ -517,8 +555,13 @@ modelos depende de um punhado de alunos individuais.
 **A vantagem de recall da Regressão Logística não é artefato — mas também não é geral.**
 
 Ela é real no limiar 0,50, e o McNemar a confirma como estatisticamente significativa **naquele ponto de
-operação**. E reaparece numa banda estreita de recall muito alto. Mas em toda a faixa praticamente
-utilizável, o XGBoost detecta mais evadidos pelo mesmo custo.
+operação**. E reaparece numa banda estreita de recall muito alto, que — como mostra a §9.5 — ainda cabe
+dentro do teto de convocação de 50%.
+
+O enunciado correto não é que o XGBoost vença em toda a faixa utilizável, e sim que ele vence em
+**72 dos 76 pontos decididos** abaixo do teto. Os quatro pontos restantes pertencem à Regressão
+Logística e ficam nos três pontos percentuais finais antes da fronteira — um regime que exige convocar
+praticamente metade da turma para ganhar de um a onze falsos alarmes.
 
 **Por que F1 permanece o critério de seleção entre algoritmos:**
 
@@ -588,7 +631,8 @@ O gráfico da direita é o mais útil para a conversa com a gestão, porque troc
 - Baixar o limiar de 0,50 para **0,30** reduz os evadidos não detectados de 29 para **12** (−59%), ao
   custo de subir os falsos alarmes de 24 para 58. São **17 alunos resgatados** por 34 conversas extras.
 - Baixar para **0,10** deixa apenas **6 evadidos** escaparem, mas convoca 447 alunos (62% da turma) —
-  ponto em que o sistema perde utilidade prática por saturar a equipe.
+  bem além do teto de 50% adotado na §9.5, e portanto fora da faixa em que a lista ainda funciona como
+  priorização.
 - **Elevar** o limiar quase não melhora nada: de 0,50 para 0,80, os falsos alarmes caem de 24 para 3,
   mas 18 evadidos adicionais escapam. Trocar 21 conversas por 18 alunos perdidos é um mau negócio dado
   o custo assimétrico declarado.
