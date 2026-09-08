@@ -1,0 +1,795 @@
+﻿prioridade,aluno,escore,faixa,area,acao,area_secundaria,fator_1,fator_2,fator_3
+1,156,0.9995,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Mensalidades em dia = 0,Curso 9119
+2,553,0.9994,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 0
+3,390,0.9992,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 0
+4,267,0.999,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Mensalidades em dia = 0,Inadimplente = 1
+5,29,0.9988,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 0
+6,403,0.9987,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 3
+7,414,0.9981,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Curso 9119,Disciplinas aprovadas (1º sem.) = 1
+8,206,0.9976,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 1,Curso 9119
+9,300,0.9972,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 8,Disciplinas aprovadas (1º sem.) = 1
+10,162,0.9967,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Inadimplente = 1
+11,484,0.9964,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Inadimplente = 1,Curso 9119
+12,14,0.996,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 6
+13,19,0.9959,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 2,Inadimplente = 1
+14,424,0.9956,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+15,299,0.9954,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 4
+16,307,0.9952,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 0
+17,410,0.9947,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Curso 9119,Disciplinas aprovadas (1º sem.) = 0
+18,597,0.9947,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 6
+19,497,0.9945,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 6
+20,771,0.9944,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+21,645,0.9944,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas matriculadas (1º sem.) = 7,Média das notas (2º sem.) = 0
+22,7,0.9944,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 3
+23,332,0.9943,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 0,Curso 9119
+24,673,0.9941,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+25,207,0.9941,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 1,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 1
+26,170,0.994,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1
+27,698,0.9938,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+28,489,0.9936,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 0
+29,134,0.9935,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 1,Inadimplente = 1
+30,537,0.9932,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 8
+31,32,0.9931,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Inadimplente = 1
+32,169,0.9929,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 3
+33,481,0.9926,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Inadimplente = 1
+34,395,0.9921,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 7
+35,58,0.9917,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Inadimplente = 1
+36,311,0.9912,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 7
+37,151,0.991,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+38,487,0.9908,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+39,751,0.9907,Muito alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4
+40,509,0.9906,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Idade no ingresso = 29
+41,241,0.9905,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 2
+42,775,0.9904,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Curso 9119,Disciplinas aprovadas (1º sem.) = 0
+43,346,0.9902,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas matriculadas (1º sem.) = 8,Disciplinas aprovadas (1º sem.) = 0
+44,506,0.9891,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+45,630,0.9889,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 6
+46,712,0.9887,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 0
+47,706,0.9883,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Média das notas (2º sem.) = 0
+48,415,0.988,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 0
+49,37,0.988,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6
+50,793,0.988,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 10,Idade no ingresso = 25
+51,269,0.988,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 7
+52,533,0.9875,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 8,Disciplinas aprovadas (1º sem.) = 1
+53,348,0.9864,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Curso 9853,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1
+54,532,0.9864,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+55,646,0.9862,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Curso 9119
+56,264,0.9861,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 0
+57,352,0.9856,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+58,101,0.9856,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Inadimplente = 1
+59,394,0.9848,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas matriculadas (1º sem.) = 8,Disciplinas aprovadas (1º sem.) = 0
+60,708,0.9847,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Inadimplente = 1
+61,371,0.9846,Muito alto,Financeiro,Renegociação de mensalidade,Contato,Mensalidades em dia = 0,Inadimplente = 1,Avaliações realizadas (2º sem.) = 12
+62,292,0.9845,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 3
+63,167,0.984,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Idade no ingresso = 31
+64,13,0.984,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6,Média das notas (2º sem.) = 10
+65,43,0.984,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+66,245,0.9831,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+67,374,0.9828,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+68,440,0.9819,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Avaliações realizadas (2º sem.) = 12,Disciplinas matriculadas (1º sem.) = 6
+69,402,0.9817,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+70,91,0.981,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+71,325,0.9809,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Média das notas (2º sem.) = 0
+72,453,0.9807,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 3
+73,251,0.9804,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+74,323,0.9777,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (2º sem.) = 3,Nota de admissão = 130
+75,16,0.9768,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+76,594,0.9744,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 10,Média das notas (2º sem.) = 10
+77,447,0.9741,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+78,687,0.9735,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Avaliações realizadas (2º sem.) = 13
+79,688,0.973,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 0,Curso 9119
+80,326,0.9725,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.50
+81,261,0.9724,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Inadimplente = 1
+82,69,0.9715,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+83,595,0.9711,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Inadimplente = 1
+84,615,0.971,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Média das notas (2º sem.) = 0
+85,669,0.9707,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 125
+86,647,0.9705,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 4
+87,752,0.9693,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+88,715,0.9691,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 7
+89,126,0.9691,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (2º sem.) = 3,Nota de admissão = 130
+90,168,0.9691,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 2
+91,632,0.9681,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Avaliações realizadas (2º sem.) = 11,Disciplinas matriculadas (1º sem.) = 6
+92,648,0.9681,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+93,152,0.9669,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 13
+94,331,0.9667,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 2,Idade no ingresso = 27
+95,655,0.9665,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 2
+96,660,0.9664,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Inadimplente = 1
+97,741,0.9663,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 4
+98,454,0.9661,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+99,392,0.9659,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Avaliações realizadas (2º sem.) = 12
+100,747,0.9658,Muito alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4
+101,427,0.9654,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (1º sem.) = 17
+102,435,0.9649,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0
+103,710,0.964,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+104,377,0.9635,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 3
+105,779,0.9633,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+106,92,0.9632,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 1
+107,0,0.9626,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+108,681,0.9623,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 7
+109,791,0.9622,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+110,75,0.9621,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 12
+111,88,0.962,Muito alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Nota da formação anterior,Nota de admissão = 132
+112,672,0.962,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 124.80
+113,457,0.96,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+114,742,0.9599,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 11
+115,492,0.9596,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Média das notas (2º sem.) = 10.50
+116,786,0.9586,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Disciplinas matriculadas (1º sem.) = 6
+117,143,0.9562,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Inadimplente = 1
+118,600,0.9557,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Disciplinas aprovadas (1º sem.) = 1
+119,519,0.9557,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 11
+120,599,0.9553,Muito alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,Curso 9670
+121,218,0.9552,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Taxa de desemprego = 13.90
+122,174,0.9543,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Ocupação do pai 4
+123,567,0.9541,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 12
+124,438,0.9539,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+125,571,0.9536,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+126,675,0.9532,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 125
+127,334,0.9518,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4
+128,388,0.9509,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+129,749,0.9506,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 1,Nota de admissão = 123.70
+130,78,0.9505,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 1
+131,602,0.9497,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 1
+132,658,0.9489,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6
+133,345,0.9427,Muito alto,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 9
+134,437,0.9422,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 27
+135,55,0.9413,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 26
+136,317,0.9412,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Inadimplente = 1
+137,465,0.9411,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 2,Bolsista = 0
+138,214,0.9407,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 26
+139,462,0.9392,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 11
+140,36,0.9391,Muito alto,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 10
+141,219,0.9389,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+142,260,0.9385,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (2º sem.) = 13
+143,364,0.9378,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 7
+144,680,0.9369,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+145,418,0.9332,Muito alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,PIB = 2.02,Nota de admissão = 133.40
+146,144,0.9305,Muito alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,Curso 9130
+147,634,0.9302,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 10.33
+148,341,0.9298,Muito alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 10
+149,304,0.9293,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Avaliações realizadas (2º sem.) = 12
+150,522,0.9287,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Idade no ingresso = 50
+151,445,0.9281,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,PIB = 3.51,Avaliações realizadas (2º sem.) = 13
+152,640,0.928,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Idade no ingresso = 38
+153,513,0.9279,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 0,Disciplinas aprovadas (2º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+154,296,0.927,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 2
+155,118,0.927,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6,Média das notas (2º sem.) = 10
+156,276,0.9269,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 12
+157,72,0.9264,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+158,486,0.9259,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 4,Inadimplente = 1
+159,412,0.9257,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+160,778,0.9255,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 13
+161,340,0.9239,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Avaliações realizadas (2º sem.) = 12
+162,468,0.9226,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+163,237,0.9212,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 133.20
+164,386,0.9212,Muito alto,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4
+165,178,0.9207,Muito alto,Financeiro,Renegociação de mensalidade,Contato,Curso 9853,Inadimplente = 1,Avaliações realizadas (2º sem.) = 10
+166,183,0.9202,Muito alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.25
+167,431,0.9199,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+168,153,0.9196,Muito alto,Financeiro,Renegociação de mensalidade,Pedagógico,Mensalidades em dia = 0,Disciplinas aprovadas (1º sem.) = 4,Ocupação do pai 4
+169,344,0.9193,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 13.90
+170,114,0.9192,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 11
+171,77,0.9183,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 1,Disciplinas aprovadas (1º sem.) = 0,Bolsista = 0
+172,501,0.9176,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 25
+173,337,0.9164,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+174,405,0.9143,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Inadimplente = 1,Média das notas (2º sem.) = 11
+175,163,0.9142,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 1,Nota de admissão = 122.20
+176,443,0.9102,Muito alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 12
+177,89,0.9089,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4
+178,770,0.9089,Muito alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+179,629,0.9087,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 28
+180,425,0.9037,Muito alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 126.10
+181,150,0.903,Muito alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Inadimplente = 1,Bolsista = 0
+182,97,0.8987,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Curso 9119,Idade no ingresso = 25
+183,160,0.8985,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 2,Disciplinas aprovadas (2º sem.) = 3,Idade no ingresso = 37
+184,336,0.8952,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 11
+185,263,0.8945,Alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Nota de admissão = 122.20,Curso 9773
+186,551,0.8938,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Disciplinas aprovadas (1º sem.) = 4
+187,639,0.8935,Alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Nota de admissão = 122.50,PIB = 2.02
+188,478,0.8929,Alto,Financeiro,Renegociação de mensalidade,Pedagógico,Curso 9119,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 4
+189,321,0.8916,Alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Curso 9119,PIB = 3.51
+190,119,0.8912,Alto,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Disciplinas matriculadas (1º sem.) = 12,Disciplinas creditadas (1º sem.) = 7
+191,444,0.8861,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.25,Ocupação do pai 4
+192,275,0.885,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 10.80
+193,186,0.8834,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 25
+194,391,0.8777,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 37
+195,220,0.8753,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 17
+196,495,0.8735,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (2º sem.) = 13
+197,762,0.8725,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,PIB = 3.51
+198,626,0.8719,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 128.60
+199,598,0.8706,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.43,Curso 9670
+200,521,0.8699,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6
+201,380,0.8698,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.33,Avaliações realizadas (2º sem.) = 13
+202,651,0.8637,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 12
+203,281,0.863,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6,Média das notas (2º sem.) = 10.33
+204,65,0.8614,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Avaliações realizadas (2º sem.) = 15
+205,633,0.8614,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 1,Curso 9773,Idade no ingresso = 23
+206,121,0.86,Alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 6
+207,98,0.8581,Alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 2,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 6
+208,574,0.8567,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Curso 9119,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 28
+209,539,0.8561,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 4,Ocupação do pai 4
+210,654,0.8555,Alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Inadimplente = 1
+211,668,0.8547,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 1,Nota de admissão = 130
+212,100,0.8527,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Ocupação do pai 4
+213,333,0.8497,Alto,Acadêmico,Revisar carga de disciplinas,Financeiro,Curso 9119,Disciplinas matriculadas (1º sem.) = 7,Inadimplente = 1
+214,464,0.8494,Alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,Curso 9853
+215,315,0.8491,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 10,Avaliações realizadas (2º sem.) = 12
+216,607,0.8459,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 122.80
+217,159,0.8454,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10
+218,384,0.845,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Nota de admissão = 130.20
+219,449,0.8405,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Média das notas (2º sem.) = 10.75,Nota de admissão = 130.20
+220,22,0.8396,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Curso 9853,Disciplinas matriculadas (1º sem.) = 7
+221,432,0.8392,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 0,Gênero = 1
+222,767,0.835,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6,Média das notas (2º sem.) = 10
+223,683,0.8282,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (1º sem.) = 18
+224,491,0.824,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 12
+225,349,0.823,Alto,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 11
+226,399,0.823,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 11,Disciplinas matriculadas (1º sem.) = 6
+227,382,0.8229,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 0,Nota de admissão = 130.80
+228,618,0.8213,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Média das notas (2º sem.) = 11,Avaliações realizadas (2º sem.) = 11
+229,288,0.8199,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 129
+230,10,0.8191,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Curso 9773
+231,398,0.8175,Alto,Financeiro,Renegociação de mensalidade,Contato,Mensalidades em dia = 0,Avaliações realizadas (2º sem.) = 11,PIB = 2.02
+232,756,0.8156,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.25
+233,73,0.8143,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+234,94,0.811,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 118.40
+235,31,0.8087,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.83
+236,604,0.8068,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Idade no ingresso = 26
+237,456,0.8068,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 2,Taxa de inflação = -0.30,Média das notas (2º sem.) = 10.67
+238,652,0.8052,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Nota de admissão = 121.70
+239,702,0.8038,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 136.70
+240,20,0.8034,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Taxa de desemprego = 13.90
+241,8,0.7997,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 134.10
+242,493,0.7988,Alto,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Idade no ingresso = 26,PIB = 2.02
+243,361,0.7966,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Média das notas (2º sem.) = 11,Nota de admissão = 123.70
+244,570,0.795,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Ocupação do pai 4,Nota de admissão = 123.10
+245,330,0.7932,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (1º sem.) = 14,Disciplinas matriculadas (1º sem.) = 6
+246,205,0.7917,Alto,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 9,Disciplinas creditadas (1º sem.) = 7
+247,692,0.7868,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Taxa de desemprego = 15.50
+248,177,0.7856,Alto,Pedagógico,Monitoria ou tutoria,Contato,Curso 9853,Média das notas (2º sem.) = 10.60,Avaliações realizadas (2º sem.) = 10
+249,226,0.7844,Alto,Financeiro,Renegociação de mensalidade,Contato,Mensalidades em dia = 0,Inadimplente = 1,Avaliações realizadas (1º sem.) = 18
+250,755,0.7838,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 132.50
+251,413,0.7811,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (1º sem.) = 17,Curso 9670
+252,113,0.7763,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 27,Ocupação do pai 4
+253,366,0.7749,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (2º sem.) = 12
+254,575,0.7727,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 11
+255,699,0.7648,Alto,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 13,Idade no ingresso = 33
+256,700,0.7641,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+257,623,0.7635,Alto,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Inadimplente = 1
+258,653,0.7606,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Nota de admissão = 121.60
+259,417,0.759,Alto,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas creditadas (1º sem.) = 13,Disciplinas matriculadas (1º sem.) = 17,Inadimplente = 1
+260,318,0.7573,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 25,Avaliações realizadas (2º sem.) = 12
+261,123,0.757,Alto,Individual,Análise caso a caso,—,Curso 9853,Nota de admissão = 126.70,Taxa de desemprego = 15.50
+262,96,0.7552,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Taxa de desemprego = 15.50
+263,248,0.7546,Alto,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Disciplinas aprovadas (1º sem.) = 4,Nota da formação anterior
+264,234,0.7539,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Curso 9773
+265,578,0.7523,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Nota de admissão = 122.80,Nota da formação anterior
+266,482,0.747,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Nota de admissão = 122.50
+267,420,0.7469,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+268,389,0.745,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Avaliações realizadas (2º sem.) = 12,Curso 9130
+269,224,0.7438,Alto,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,PIB = 2.02
+270,451,0.7407,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (1º sem.) = 18,Avaliações realizadas (2º sem.) = 14
+271,314,0.7405,Alto,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 25,Ocupação do pai 4,Avaliações realizadas (2º sem.) = 11
+272,500,0.7403,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 26
+273,547,0.7384,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 10.86
+274,773,0.7378,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Escolaridade do pai 2
+275,215,0.7362,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Curso 9670,Taxa de desemprego = 13.90
+276,294,0.7308,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+277,592,0.7238,Alto,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Idade no ingresso = 31,Média das notas (2º sem.) = 10.17
+278,201,0.7216,Alto,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90
+279,67,0.7162,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 12
+280,230,0.7153,Alto,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 15
+281,293,0.714,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+282,789,0.7098,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Curso 9853,Disciplinas matriculadas (1º sem.) = 6
+283,310,0.7094,Alto,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 26
+284,442,0.7052,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+285,426,0.7014,Alto,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,PIB = 3.51
+286,458,0.7004,Alto,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 26,Taxa de desemprego = 15.50
+287,662,0.6967,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 26,Avaliações realizadas (2º sem.) = 19
+288,222,0.6922,Moderado,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Média das notas (2º sem.) = 10.40,Nota de admissão = 126
+289,498,0.6905,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 13,Gênero = 1
+290,657,0.6886,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Curso 9119,PIB = 3.51
+291,250,0.6878,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 15.50
+292,433,0.6873,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Avaliações realizadas (2º sem.) = 12,Disciplinas matriculadas (1º sem.) = 6
+293,446,0.6871,Moderado,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Escolaridade do pai 2
+294,564,0.6838,Moderado,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Nota de admissão = 126.90,Disciplinas matriculadas (1º sem.) = 6
+295,368,0.6835,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+296,53,0.6808,Moderado,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 121.60
+297,26,0.6793,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.67
+298,768,0.679,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Gênero = 1
+299,760,0.6781,Moderado,Financeiro,Renegociação de mensalidade,Pedagógico,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 25
+300,357,0.6775,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Nota de admissão = 133.50
+301,625,0.6756,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Curso 9853,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 10
+302,102,0.6739,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (1º sem.) = 14
+303,704,0.6734,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Curso 9670
+304,774,0.6715,Moderado,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 28,Disciplinas matriculadas (1º sem.) = 13,Disciplinas creditadas (1º sem.) = 7
+305,182,0.6641,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+306,17,0.6638,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Ocupação do pai 4,Nota de admissão = 125.50
+307,50,0.6619,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 128.80
+308,115,0.6615,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Nota da formação anterior
+309,266,0.6559,Moderado,Contato,Possível abandono em curso,—,Curso 9130,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 130
+310,485,0.6557,Moderado,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Inadimplente = 1
+311,461,0.6556,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Bolsista = 0
+312,434,0.6553,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 16,Idade no ingresso = 34
+313,743,0.6531,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 0,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 0
+314,84,0.6526,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 2,Avaliações realizadas (2º sem.) = 12,Disciplinas matriculadas (1º sem.) = 6
+315,745,0.6505,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,PIB = 2.02,Bolsista = 0
+316,70,0.6479,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 26,Avaliações realizadas (2º sem.) = 13
+317,757,0.6472,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+318,588,0.6415,Moderado,Financeiro,Renegociação de mensalidade,Pedagógico,Inadimplente = 1,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 25
+319,23,0.6399,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 11
+320,130,0.6355,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Escolaridade do pai 2,Curso 9670
+321,194,0.6354,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 11
+322,559,0.6346,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Bolsista = 0
+323,142,0.6211,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Nota de admissão = 130,PIB = 3.51
+324,120,0.6203,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1,Média das notas (2º sem.) = 10
+325,106,0.6189,Moderado,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 11
+326,313,0.6156,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 10,Idade no ingresso = 24
+327,68,0.6145,Moderado,Individual,Análise caso a caso,—,Curso 9853,Nota de admissão = 122.50,Taxa de desemprego = 15.50
+328,11,0.6138,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+329,661,0.6137,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,Curso 9853
+330,343,0.6127,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 14,Nota de admissão = 133.80
+331,569,0.6107,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Ocupação do pai 9
+332,596,0.6095,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Ocupação do pai 4,Avaliações realizadas (2º sem.) = 11
+333,383,0.608,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.57
+334,518,0.6067,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Inadimplente = 1,PIB = 2.02
+335,38,0.6017,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 35
+336,342,0.6002,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Nota de admissão = 124.80,PIB = 3.51
+337,146,0.5999,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Ocupação do pai 4,PIB = 2.02
+338,609,0.5996,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Nota da formação anterior
+339,776,0.5982,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Inadimplente = 1,PIB = 3.51
+340,48,0.5979,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 11,Curso 9670
+341,181,0.5966,Moderado,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90
+342,358,0.5933,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Taxa de desemprego = 15.50,Disciplinas matriculadas (1º sem.) = 6
+343,406,0.5851,Moderado,Individual,Análise caso a caso,—,Curso 9119,Escolaridade do pai 2,Nota de admissão = 125.20
+344,273,0.5851,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6,Média das notas (2º sem.) = 11
+345,697,0.5842,Moderado,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (2º sem.) = 7
+346,422,0.5837,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Curso 9130
+347,291,0.5833,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 25,Média das notas (2º sem.) = 11
+348,534,0.5831,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 34,Média das notas (2º sem.) = 10.75
+349,606,0.5802,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 124.40
+350,387,0.5784,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 15.50
+351,400,0.5773,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 15,Bolsista = 0
+352,33,0.5727,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 28,Média das notas (2º sem.) = 10.50
+353,766,0.57,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+354,197,0.5696,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 130
+355,189,0.5665,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 131
+356,175,0.557,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Curso 9853,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+357,277,0.5557,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 2,Gênero = 1,Bolsista = 0
+358,624,0.5526,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 12,Idade no ingresso = 38
+359,584,0.5518,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 30,Média das notas (2º sem.) = 10.40
+360,579,0.549,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+361,155,0.5483,Moderado,Acadêmico,Revisar carga de disciplinas,Financeiro,Curso 9853,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0
+362,82,0.5472,Moderado,Individual,Análise caso a caso,—,Curso 9853,Taxa de desemprego = 15.50,Nota de admissão = 131.30
+363,125,0.5461,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.80,Disciplinas matriculadas (1º sem.) = 6
+364,711,0.545,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 36,Avaliações realizadas (2º sem.) = 12
+365,455,0.5438,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+366,372,0.5416,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (2º sem.) = 13,Disciplinas matriculadas (1º sem.) = 6
+367,54,0.5409,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 125.90
+368,555,0.5407,Moderado,Contato,Possível abandono em curso,—,Curso 9853,Avaliações realizadas (2º sem.) = 12,Nota de admissão = 128.40
+369,373,0.5383,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+370,467,0.5359,Moderado,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 121.20
+371,112,0.5335,Moderado,Contato,Possível abandono em curso,Acadêmico,Curso 9853,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (1º sem.) = 6
+372,138,0.5325,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 18,Disciplinas matriculadas (1º sem.) = 6
+373,86,0.5311,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 12
+374,179,0.5309,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Curso 9853,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6
+375,356,0.5245,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 2,Idade no ingresso = 34,Média das notas (1º sem.) = 11.50
+376,338,0.5233,Moderado,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Média das notas (2º sem.) = 11,Taxa de desemprego = 15.50
+377,51,0.5192,Moderado,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Nota de admissão = 125,Disciplinas matriculadas (1º sem.) = 6
+378,722,0.519,Moderado,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 17,Disciplinas creditadas (1º sem.) = 12,Inadimplente = 1
+379,354,0.5179,Moderado,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Idade no ingresso = 25,Média das notas (1º sem.) = 11.33
+380,367,0.5173,Moderado,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 1,Bolsista = 0
+381,714,0.5134,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Taxa de desemprego = 13.90
+382,483,0.5091,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 10,PIB = 3.51
+383,107,0.5089,Moderado,Contato,Possível abandono em curso,—,Curso 9670,Nota de admissão = 134.70,Avaliações realizadas (2º sem.) = 10
+384,429,0.5063,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 43,Avaliações realizadas (2º sem.) = 10
+385,549,0.5052,Moderado,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 124.30,Disciplinas matriculadas (2º sem.) = 7
+386,691,0.5023,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Avaliações realizadas (2º sem.) = 12,Nota de admissão = 122.90
+387,732,0.4991,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Nota de admissão = 129.80,Nota da formação anterior
+388,709,0.4947,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 125.10
+389,319,0.4935,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 7,Taxa de inflação = -0.30
+390,93,0.4923,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 3,Gênero = 1
+391,12,0.4912,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+392,190,0.4864,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Média das notas (2º sem.) = 11,Nota de admissão = 123.80
+393,85,0.4862,Moderado,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0
+394,504,0.4846,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+395,320,0.4813,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Curso 9119,Avaliações realizadas (2º sem.) = 12
+396,627,0.4805,Moderado,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 29,Média das notas (2º sem.) = 10.25,Avaliações realizadas (2º sem.) = 10
+397,643,0.4801,Moderado,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 25,Avaliações realizadas (2º sem.) = 11,Gênero = 1
+398,324,0.4799,Moderado,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (2º sem.) = 7
+399,306,0.4761,Moderado,Acadêmico,Revisar carga de disciplinas,—,Taxa de desemprego = 15.50,Nota de admissão = 134.20,Disciplinas matriculadas (1º sem.) = 6
+400,30,0.4714,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+401,379,0.4707,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Gênero = 1,Avaliações realizadas (2º sem.) = 11
+402,515,0.4692,Moderado,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Disciplinas matriculadas (2º sem.) = 7
+403,308,0.4673,Moderado,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,Curso 9119,PIB = 3.51
+404,301,0.4668,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.75,Nota de admissão = 130
+405,581,0.4667,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 12,PIB = 3.51
+406,329,0.4641,Moderado,Financeiro,Renegociação de mensalidade,Contato,Inadimplente = 1,Avaliações realizadas (2º sem.) = 10,Deslocado da cidade de origem = 1
+407,619,0.4613,Moderado,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 29,Disciplinas matriculadas (1º sem.) = 13,Média das notas (2º sem.) = 10.33
+408,172,0.4589,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 34,Média das notas (2º sem.) = 10.83
+409,678,0.4574,Moderado,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 19,Nota de admissão = 130,Disciplinas matriculadas (1º sem.) = 6
+410,360,0.4515,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 2,Disciplinas matriculadas (1º sem.) = 6,Avaliações realizadas (2º sem.) = 18
+411,246,0.445,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Nota de admissão = 122.40
+412,582,0.444,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 39,PIB = 2.02
+413,141,0.4406,Moderado,Contato,Possível abandono em curso,—,Curso 9853,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 137.20
+414,131,0.4398,Moderado,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 11,Idade no ingresso = 32,Disciplinas creditadas (2º sem.) = 5
+415,428,0.4369,Moderado,Contato,Possível abandono em curso,Acadêmico,PIB = 3.51,Avaliações realizadas (2º sem.) = 13,Disciplinas matriculadas (1º sem.) = 6
+416,490,0.4351,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 128.30,Nota da formação anterior
+417,561,0.4325,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Avaliações realizadas (2º sem.) = 12,Bolsista = 0
+418,576,0.4299,Moderado,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 10,Avaliações realizadas (2º sem.) = 11
+419,460,0.4279,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 26,Bolsista = 0
+420,676,0.425,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Curso 9119,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 28
+421,677,0.4245,Moderado,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 28,Avaliações realizadas (2º sem.) = 12,Nota de admissão = 125
+422,90,0.4237,Moderado,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 26,Avaliações realizadas (2º sem.) = 12
+423,638,0.4228,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 39,Taxa de desemprego = 15.50
+424,577,0.4208,Moderado,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 12,Disciplinas matriculadas (1º sem.) = 6,Idade no ingresso = 23
+425,209,0.4203,Moderado,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 11,Inadimplente = 1,Avaliações realizadas (1º sem.) = 18
+426,689,0.4198,Moderado,Contato,Possível abandono em curso,—,Curso 9670,Nota de admissão = 135.70,Avaliações realizadas (2º sem.) = 10
+427,707,0.4185,Moderado,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 13,Idade no ingresso = 24,Nota de admissão = 135.40
+428,289,0.4174,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+429,232,0.4167,Moderado,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+430,353,0.4164,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Curso 9670,Avaliações realizadas (2º sem.) = 11
+431,536,0.4156,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Curso 9670,Idade no ingresso = 35
+432,783,0.4101,Moderado,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.75,Avaliações realizadas (2º sem.) = 10
+433,727,0.4099,Moderado,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0
+434,397,0.4081,Moderado,Contato,Possível abandono em curso,Acadêmico,Curso 9853,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (1º sem.) = 6
+435,312,0.4033,Moderado,Pedagógico,Monitoria ou tutoria,—,Curso 9853,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 121.40
+436,408,0.401,Moderado,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 13.90,Disciplinas matriculadas (1º sem.) = 6
+437,782,0.3988,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 30,Bolsista = 0
+438,781,0.3984,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 128.50,Disciplinas matriculadas (2º sem.) = 7
+439,278,0.3955,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Curso 9670,Média das notas (2º sem.) = 11
+440,254,0.3943,Baixo,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Média das notas (2º sem.) = 10.84,Idade no ingresso = 35
+441,508,0.3938,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Média das notas (2º sem.) = 11
+442,362,0.3919,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 119.70
+443,613,0.3896,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Nota de admissão = 121.10,Disciplinas matriculadas (1º sem.) = 6
+444,705,0.3886,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 12,PIB = 3.51
+445,298,0.3875,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 31,Nota de admissão = 130
+446,305,0.3853,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 9,Escolaridade do pai 2,Avaliações realizadas (2º sem.) = 15
+447,527,0.3848,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 12,Idade no ingresso = 49,Disciplinas matriculadas (1º sem.) = 6
+448,726,0.3831,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 2,Inadimplente = 1,Bolsista = 0
+449,610,0.3812,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 0,Nota de admissão = 126.10,Bolsista = 0
+450,59,0.38,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 11,Taxa de desemprego = 16.20
+451,621,0.3783,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Avaliações realizadas (2º sem.) = 11
+452,117,0.3775,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 3,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 131.80
+453,148,0.3747,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 125.40
+454,6,0.373,Baixo,Contato,Possível abandono em curso,Pedagógico,Avaliações realizadas (2º sem.) = 17,Média das notas (2º sem.) = 10.57,Avaliações realizadas (1º sem.) = 15
+455,193,0.3725,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 11
+456,401,0.3655,Baixo,Contato,Possível abandono em curso,Financeiro,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 13.90,Bolsista = 0
+457,733,0.3652,Baixo,Financeiro,Renegociação de mensalidade,—,Mensalidades em dia = 0,PIB = 3.51,Bolsista = 0
+458,192,0.3566,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+459,376,0.3556,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Nota de admissão = 129.30
+460,195,0.3554,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 127.50,Taxa de desemprego = 16.20
+461,761,0.3544,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Gênero = 1,Bolsista = 0
+462,111,0.3541,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 19,Disciplinas matriculadas (1º sem.) = 6,Escolaridade da mãe 3
+463,753,0.3535,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 123.30,Avaliações realizadas (1º sem.) = 15
+464,524,0.3528,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 12,Idade no ingresso = 41
+465,18,0.352,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,PIB = 2.02,Nota de admissão = 128.70
+466,469,0.3498,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 29,Escolaridade do pai 2,Avaliações realizadas (2º sem.) = 17
+467,71,0.3488,Baixo,Acadêmico,Revisar carga de disciplinas,—,Nota de admissão = 128.90,PIB = 3.51,Disciplinas matriculadas (1º sem.) = 6
+468,211,0.3479,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 24,Disciplinas matriculadas (1º sem.) = 6
+469,56,0.3476,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas creditadas (1º sem.) = 10,Disciplinas matriculadas (1º sem.) = 16,Avaliações realizadas (2º sem.) = 19
+470,523,0.3413,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Escolaridade da mãe 34,Ocupação da mãe 0,Idade no ingresso = 48
+471,563,0.341,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Avaliações realizadas (2º sem.) = 15
+472,463,0.3393,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Nota de admissão = 127.40,Disciplinas matriculadas (1º sem.) = 6
+473,511,0.3387,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 7
+474,502,0.3375,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (2º sem.) = 8
+475,701,0.3368,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 35,Nota de admissão = 131.80
+476,41,0.3319,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 17,Disciplinas creditadas (1º sem.) = 11,Avaliações realizadas (2º sem.) = 15
+477,679,0.3313,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Curso 9853,Idade no ingresso = 23,Disciplinas matriculadas (1º sem.) = 6
+478,739,0.3293,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 14,Idade no ingresso = 24
+479,235,0.3281,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (2º sem.) = 3,Nota de admissão = 123.50,Avaliações realizadas (2º sem.) = 11
+480,81,0.322,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Média das notas (2º sem.) = 10.40,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 15.50
+481,157,0.3217,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 11,Nota de admissão = 131.50
+482,560,0.3191,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Nota da formação anterior
+483,552,0.3161,Baixo,Contato,Possível abandono em curso,—,Taxa de inflação = -0.30,Avaliações realizadas (2º sem.) = 10,Curso 9670
+484,466,0.3141,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 121.30,Avaliações realizadas (1º sem.) = 14
+485,180,0.3141,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 6,PIB = 3.51,Nota de admissão = 120
+486,545,0.3138,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 128.80,Ocupação do pai 4
+487,750,0.3135,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Idade no ingresso = 27,Deslocado da cidade de origem = 1
+488,188,0.3085,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 24,Avaliações realizadas (2º sem.) = 10
+489,641,0.3068,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 12,PIB = 2.02
+490,416,0.3056,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 15.50
+491,25,0.3054,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 10.75,Avaliações realizadas (2º sem.) = 12
+492,249,0.3054,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 124.20,Taxa de desemprego = 13.90,Gênero = 1
+493,221,0.3053,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Bolsista = 0,Taxa de desemprego = 16.20
+494,385,0.3044,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Média das notas (2º sem.) = 11,Avaliações realizadas (2º sem.) = 16,PIB = 3.51
+495,684,0.2998,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 11,Nota de admissão = 130,Gênero = 1
+496,777,0.2992,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 28,Média das notas (1º sem.) = 11.50
+497,133,0.2991,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+498,257,0.2988,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 47,Gênero = 1
+499,282,0.2976,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 12,PIB = 3.51
+500,616,0.297,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 11,PIB = 2.02
+501,479,0.2957,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 40,Escolaridade da mãe 34
+502,259,0.2949,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+503,200,0.2932,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 11,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 13.90
+504,128,0.2932,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9670,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 13.90
+505,543,0.2861,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 2,PIB = 2.02,Nota de admissão = 124.60
+506,359,0.2848,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 123,Disciplinas matriculadas (2º sem.) = 7
+507,5,0.283,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 16.20,Deslocado da cidade de origem = 1
+508,350,0.2829,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02
+509,642,0.2808,Baixo,Financeiro,Renegociação de mensalidade,—,Inadimplente = 1,Curso 9670,PIB = 3.51
+510,583,0.2807,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Bolsista = 0
+511,187,0.2742,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 25,Avaliações realizadas (2º sem.) = 21
+512,748,0.274,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 11,Avaliações realizadas (1º sem.) = 14
+513,505,0.2728,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 122.40,Curso 9670
+514,347,0.2717,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Escolaridade do pai 2,Avaliações realizadas (1º sem.) = 14
+515,591,0.2716,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 126.20,PIB = 2.02
+516,790,0.2707,Baixo,Individual,Análise caso a caso,—,Curso 9853,Nota de admissão = 126.80,Deslocado da cidade de origem = 1
+517,335,0.2703,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+518,554,0.2686,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 33,Bolsista = 0
+519,233,0.2667,Baixo,Pedagógico,Monitoria ou tutoria,—,Média das notas (2º sem.) = 10.80,Curso 9773,Nota de admissão = 124.30
+520,792,0.2653,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 133.40,Taxa de desemprego = 13.90
+521,3,0.2651,Baixo,Financeiro,Renegociação de mensalidade,Pedagógico,Inadimplente = 1,Média das notas (2º sem.) = 11,Avaliações realizadas (2º sem.) = 12
+522,713,0.2651,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Curso 9773,Nota de admissão = 133,Idade no ingresso = 40
+523,64,0.2632,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Mensalidades em dia = 0,Disciplinas matriculadas (1º sem.) = 7,Curso 9853
+524,238,0.2631,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 133.50,Avaliações realizadas (2º sem.) = 13
+525,558,0.262,Baixo,Contato,Possível abandono em curso,Acadêmico,Curso 9670,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (1º sem.) = 6
+526,132,0.2619,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 12,PIB = 3.51
+527,365,0.2608,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 1,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0
+528,636,0.2582,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Disciplinas matriculadas (2º sem.) = 8
+529,103,0.2581,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 3,Avaliações realizadas (1º sem.) = 14,Taxa de desemprego = 13.90
+530,562,0.256,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Nota da formação anterior
+531,253,0.255,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 28,Avaliações realizadas (2º sem.) = 10,PIB = 2.02
+532,351,0.2532,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (2º sem.) = 3,Taxa de desemprego = 13.90,Disciplinas matriculadas (1º sem.) = 6
+533,656,0.2528,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Curso 9119,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 8
+534,475,0.2507,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 121.40,Gênero = 1
+535,303,0.2488,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Escolaridade do pai 3
+536,674,0.2482,Baixo,Individual,Análise caso a caso,—,Curso 9119,Nota de admissão = 134,Gênero = 1
+537,580,0.2479,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 13,Disciplinas creditadas (1º sem.) = 9,Avaliações realizadas (2º sem.) = 12
+538,378,0.2475,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Curso 9773,Taxa de desemprego = 15.50
+539,650,0.2456,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (1º sem.) = 14,Gênero = 1
+540,290,0.2456,Baixo,Individual,Análise caso a caso,—,PIB = 2.02,Curso 9773,Nota de admissão = 138.10
+541,474,0.2437,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 26,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 11
+542,667,0.2437,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 26,Média das notas (2º sem.) = 10.20,PIB = 2.02
+543,271,0.2424,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 28,Curso 9991
+544,666,0.2416,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 43,Avaliações realizadas (2º sem.) = 14,Taxa de desemprego = 16.20
+545,244,0.2415,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 12,PIB = 2.02
+546,369,0.239,Baixo,Contato,Possível abandono em curso,—,PIB = 2.02,Nota de admissão = 126.80,Avaliações realizadas (2º sem.) = 16
+547,566,0.2384,Baixo,Pedagógico,Monitoria ou tutoria,—,Média das notas (2º sem.) = 10.75,Nota de admissão = 125.70,Taxa de desemprego = 15.50
+548,262,0.2356,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 41,Bolsista = 0
+549,517,0.2343,Baixo,Pedagógico,Monitoria ou tutoria,—,PIB = 2.02,Média das notas (2º sem.) = 11,Nota de admissão = 124.40
+550,540,0.2329,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Disciplinas matriculadas (1º sem.) = 6,Nota de admissão = 125.10
+551,612,0.2328,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 32,Bolsista = 0,Ocupação do pai 9
+552,665,0.2289,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 2,Bolsista = 0,Taxa de desemprego = 12.70
+553,423,0.2285,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 12,Avaliações realizadas (1º sem.) = 20
+554,137,0.2281,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 15.50,Avaliações realizadas (2º sem.) = 12
+555,124,0.2261,Baixo,Contato,Possível abandono em curso,—,Nota de admissão = 130,Avaliações realizadas (2º sem.) = 10,Gênero = 1
+556,663,0.2244,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9670,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 16.20
+557,729,0.2234,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 33,Avaliações realizadas (2º sem.) = 13,Disciplinas creditadas (1º sem.) = 8
+558,161,0.2229,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 37
+559,480,0.222,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 27,Gênero = 1,Média das notas (1º sem.) = 10.67
+560,256,0.2215,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 31,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.50
+561,740,0.2198,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 123.50
+562,764,0.2178,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Taxa de desemprego = 13.90,Média das notas (2º sem.) = 10.38,Avaliações realizadas (2º sem.) = 15
+563,1,0.2152,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 16.20
+564,95,0.2138,Baixo,Individual,Análise caso a caso,—,Curso 9119,PIB = 3.51,Nota da formação anterior
+565,258,0.2123,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+566,737,0.2071,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 12,Avaliações realizadas (1º sem.) = 18,Disciplinas creditadas (1º sem.) = 7
+567,140,0.2065,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 129,Disciplinas matriculadas (2º sem.) = 8
+568,473,0.2053,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 129.90,Curso 9670,Gênero = 1
+569,765,0.2052,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Bolsista = 0
+570,297,0.2049,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Gênero = 1,Bolsista = 0
+571,272,0.2044,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (2º sem.) = 0,Disciplinas aprovadas (1º sem.) = 0,Média das notas (2º sem.) = 0
+572,546,0.2041,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Média das notas (2º sem.) = 10.25,Nota de admissão = 126
+573,216,0.2017,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Bolsista = 0,Ocupação do pai 9
+574,637,0.2016,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 9,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 16.20
+575,208,0.2011,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 0,Nota da formação anterior,Bolsista = 0
+576,375,0.2009,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Média das notas (2º sem.) = 11.14,Avaliações realizadas (2º sem.) = 12,Nota de admissão = 126.80
+577,754,0.2004,Baixo,Contato,Possível abandono em curso,Financeiro,Taxa de desemprego = 13.90,Avaliações realizadas (2º sem.) = 10,Bolsista = 0
+578,242,0.1982,Baixo,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Disciplinas aprovadas (1º sem.) = 4,Gênero = 1
+579,40,0.1971,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota da formação anterior,Deslocado da cidade de origem = 1
+580,279,0.1948,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 16.20
+581,370,0.1946,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Nota de admissão = 131.10
+582,541,0.1927,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Taxa de desemprego = 15.50,Bolsista = 0
+583,339,0.1917,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 13.90
+584,229,0.1897,Baixo,Individual,Análise caso a caso,—,Taxa de desemprego = 15.50,Nota de admissão = 122.70,Gênero = 1
+585,393,0.1897,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 15.50,Avaliações realizadas (2º sem.) = 10
+586,62,0.1887,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 31,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.83
+587,759,0.1819,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 45,Taxa de desemprego = 15.50,Nota de admissão = 134.50
+588,430,0.1797,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 129.80,PIB = 3.51
+589,731,0.1795,Baixo,Contato,Possível abandono em curso,—,Nota de admissão = 124,Avaliações realizadas (2º sem.) = 11,Nota da formação anterior
+590,280,0.178,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 15.50,Gênero = 1
+591,499,0.1779,Baixo,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 9,Idade no ingresso = 45,Média das notas (2º sem.) = 10.83
+592,316,0.1769,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Curso 9670,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0
+593,421,0.1762,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 10,PIB = 2.02,Curso 9670
+594,721,0.1757,Baixo,Contato,Possível abandono em curso,Financeiro,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 15.50,Bolsista = 0
+595,225,0.1755,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota da formação anterior,Deslocado da cidade de origem = 1
+596,538,0.1745,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Ocupação do pai 4,Bolsista = 0
+597,127,0.1737,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Nota de admissão = 123,Idade no ingresso = 37,Nota da formação anterior
+598,322,0.1736,Baixo,Financeiro,Renegociação de mensalidade,Contato,Inadimplente = 1,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 16.20
+599,671,0.1734,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (2º sem.) = 3,Inadimplente = 1,Escolaridade da mãe 34
+600,302,0.1733,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 11,Avaliações realizadas (2º sem.) = 16,Avaliações realizadas (1º sem.) = 21
+601,550,0.173,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Média das notas (2º sem.) = 10.57,Curso 9670,Avaliações realizadas (2º sem.) = 10
+602,503,0.1725,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota da formação anterior,Escolaridade do pai 1
+603,459,0.172,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Idade no ingresso = 41,Bolsista = 0
+604,47,0.1718,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 12,Idade no ingresso = 24,Ocupação do pai 4
+605,39,0.1687,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 25,Taxa de desemprego = 15.50
+606,166,0.1683,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9773,Nota de admissão = 131.70,Disciplinas matriculadas (1º sem.) = 6
+607,196,0.1679,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,PIB = 3.51,Avaliações realizadas (2º sem.) = 10
+608,611,0.1668,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 125.70,Curso 9670
+609,488,0.1667,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 25,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 15
+610,694,0.1662,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.75,Avaliações realizadas (2º sem.) = 11
+611,252,0.1653,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 25,Taxa de desemprego = 15.50,Curso 9670
+612,601,0.165,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 26,Nota de admissão = 127.60,Nota da formação anterior
+613,309,0.1641,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 12,PIB = 3.51
+614,404,0.1623,Baixo,Contato,Possível abandono em curso,Pedagógico,Avaliações realizadas (2º sem.) = 10,Média das notas (2º sem.) = 10.80,Nota de admissão = 125.10
+615,149,0.1623,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 16,Nota de admissão = 131.60
+616,525,0.1614,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 28,Avaliações realizadas (2º sem.) = 17,Disciplinas matriculadas (1º sem.) = 10
+617,283,0.1606,Baixo,Individual,Análise caso a caso,—,Curso 9773,Nota de admissão = 125.20,Nota da formação anterior
+618,231,0.1606,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 10,Curso 9130,Taxa de desemprego = 16.20
+619,274,0.1605,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 131.30,Bolsista = 0
+620,472,0.1604,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 28,Bolsista = 0
+621,287,0.1574,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 27,PIB = 2.02,Nota de admissão = 120
+622,60,0.1553,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 133,Disciplinas matriculadas (2º sem.) = 7
+623,27,0.1548,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 6,Deslocado da cidade de origem = 1
+624,34,0.1541,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Nota de admissão = 123
+625,87,0.1513,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Bolsista = 0,Ocupação do pai 9
+626,236,0.1477,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 129.50,Curso 9130
+627,529,0.1472,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 40,Bolsista = 0
+628,265,0.1468,Baixo,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 7,Ocupação do pai 4,Disciplinas aprovadas (2º sem.) = 4
+629,718,0.1465,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 1,Avaliações realizadas (2º sem.) = 13,Taxa de desemprego = 12.70
+630,381,0.1452,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9119,Disciplinas matriculadas (1º sem.) = 7,Nota da formação anterior
+631,787,0.1443,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 32,Taxa de desemprego = 15.50
+632,240,0.1442,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02,Avaliações realizadas (2º sem.) = 11
+633,557,0.1435,Baixo,Individual,Análise caso a caso,—,Curso 9773,Taxa de desemprego = 15.50,Nota de admissão = 121.10
+634,76,0.1431,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 10.50,Disciplinas matriculadas (1º sem.) = 6
+635,544,0.1429,Baixo,Contato,Possível abandono em curso,—,Curso 9773,Avaliações realizadas (2º sem.) = 11,Deslocado da cidade de origem = 1
+636,659,0.142,Baixo,Contato,Possível abandono em curso,—,Curso 9773,Nota de admissão = 131,Avaliações realizadas (2º sem.) = 10
+637,520,0.1417,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 50,Bolsista = 0
+638,42,0.1401,Baixo,Acadêmico,Revisar carga de disciplinas,—,Nota de admissão = 125.40,Disciplinas matriculadas (1º sem.) = 6,Nota da formação anterior
+639,686,0.1398,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 15.50,Avaliações realizadas (2º sem.) = 11
+640,528,0.1393,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 10,Avaliações realizadas (2º sem.) = 16,Bolsista = 0
+641,695,0.1378,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Curso 9853,Disciplinas matriculadas (1º sem.) = 7
+642,496,0.1374,Baixo,Financeiro,Renegociação de mensalidade,Acadêmico,Inadimplente = 1,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 10
+643,785,0.1373,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 2,Média das notas (2º sem.) = 10.83,Bolsista = 0
+644,419,0.1361,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 12,Gênero = 1,Taxa de desemprego = 16.20
+645,247,0.1361,Baixo,Pedagógico,Monitoria ou tutoria,—,Média das notas (2º sem.) = 10.40,Nota de admissão = 135,Gênero = 1
+646,202,0.1349,Baixo,Financeiro,Renegociação de mensalidade,Contato,Inadimplente = 1,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 16.20
+647,158,0.1337,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Média das notas (2º sem.) = 11,Avaliações realizadas (2º sem.) = 10,Bolsista = 0
+648,164,0.1333,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 11,Idade no ingresso = 34
+649,690,0.1315,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 12,Disciplinas creditadas (1º sem.) = 7,Disciplinas matriculadas (1º sem.) = 12
+650,736,0.131,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 129.10,Bolsista = 0
+651,198,0.1299,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Idade no ingresso = 24,Gênero = 1
+652,15,0.1285,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 26,Média das notas (2º sem.) = 10.80,Bolsista = 0
+653,255,0.1285,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 27,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 12
+654,171,0.1285,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 4,Ocupação do pai 4,Idade no ingresso = 41
+655,109,0.1272,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 124.30,Nota da formação anterior
+656,203,0.1264,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 4,Avaliações realizadas (2º sem.) = 13,Taxa de desemprego = 15.50
+657,122,0.1257,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02,Bolsista = 0
+658,670,0.1252,Baixo,Individual,Análise caso a caso,—,Taxa de desemprego = 15.50,Gênero = 1,Deslocado da cidade de origem = 1
+659,184,0.1238,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 16,Avaliações realizadas (1º sem.) = 18,Disciplinas matriculadas (1º sem.) = 10
+660,2,0.1223,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 121.80,Nota da formação anterior
+661,703,0.1212,Baixo,Individual,Análise caso a caso,—,Curso 9773,Nota de admissão = 130.70,Ocupação do pai 4
+662,74,0.121,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 127,Nota da formação anterior,Bolsista = 0
+663,49,0.1172,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 15.50
+664,328,0.116,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 39,Disciplinas matriculadas (2º sem.) = 7
+665,145,0.1152,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 121.30,Nota da formação anterior,Bolsista = 0
+666,685,0.1143,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 123.60,Nota da formação anterior
+667,57,0.1129,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 6,Ocupação do pai 9,Bolsista = 0
+668,223,0.1125,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 27,Nota de admissão = 121.70
+669,136,0.1124,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Ocupação do pai 4,Bolsista = 0
+670,587,0.1116,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 30,Disciplinas matriculadas (1º sem.) = 11,Avaliações realizadas (2º sem.) = 16
+671,631,0.111,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Gênero = 1,Nota de admissão = 119.50
+672,295,0.1104,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 123.30,Taxa de desemprego = 16.20,Gênero = 1
+673,99,0.1102,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 11,Bolsista = 0
+674,723,0.1094,Baixo,Individual,Análise caso a caso,—,Ocupação do pai 4,Nota da formação anterior,Nota de admissão = 118.30
+675,573,0.1083,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 125.70,Gênero = 1
+676,530,0.1081,Baixo,Acadêmico,Revisar carga de disciplinas,Pedagógico,Disciplinas matriculadas (1º sem.) = 12,Idade no ingresso = 36,Média das notas (1º sem.) = 11.50
+677,738,0.1074,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 16.20
+678,61,0.105,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 1,Nota de admissão = 131.20,Bolsista = 0
+679,568,0.1049,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 16.20,Disciplinas matriculadas (2º sem.) = 7
+680,510,0.1011,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 126.60,PIB = 2.02,Deslocado da cidade de origem = 1
+681,110,0.0994,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Bolsista = 0,Nota da formação anterior
+682,363,0.0987,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9773,Taxa de desemprego = 15.50,Disciplinas matriculadas (1º sem.) = 6
+683,212,0.0964,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 132.90,Nota da formação anterior,Gênero = 1
+684,471,0.0962,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Gênero = 1,Taxa de desemprego = 15.50
+685,614,0.095,Baixo,Financeiro,Avaliar concessão de bolsa,Acadêmico,Ocupação do pai 4,Bolsista = 0,Disciplinas matriculadas (1º sem.) = 6
+686,572,0.0948,Baixo,Pedagógico,Monitoria ou tutoria,—,Taxa de desemprego = 13.90,Média das notas (2º sem.) = 10.83,Deslocado da cidade de origem = 1
+687,104,0.0936,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 28,Média das notas (2º sem.) = 10.20,Nota da formação anterior
+688,769,0.093,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 25,Nota de admissão = 134.50,Gênero = 1
+689,204,0.0929,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 121.30,Nota da formação anterior
+690,593,0.0928,Baixo,Individual,Análise caso a caso,—,PIB = 3.51,Gênero = 1,Nota de admissão = 118.30
+691,603,0.0927,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 135,Bolsista = 0
+692,411,0.0926,Baixo,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Média das notas (1º sem.) = 15.80,PIB = 2.02
+693,441,0.0922,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 10,Idade no ingresso = 23,Bolsista = 0
+694,682,0.092,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 7,Deslocado da cidade de origem = 1
+695,63,0.0918,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 11,Inadimplente = 1,Avaliações realizadas (2º sem.) = 14
+696,210,0.0912,Baixo,Contato,Possível abandono em curso,Acadêmico,Taxa de desemprego = 15.50,Avaliações realizadas (2º sem.) = 10,Disciplinas matriculadas (1º sem.) = 6
+697,649,0.091,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 125.50,Escolaridade da mãe 3
+698,228,0.0909,Baixo,Contato,Possível abandono em curso,—,Avaliações realizadas (2º sem.) = 11,Nota de admissão = 124.30,Taxa de desemprego = 13.90
+699,268,0.0901,Baixo,Financeiro,Avaliar concessão de bolsa,—,Taxa de desemprego = 13.90,Bolsista = 0,Ocupação do pai 9
+700,185,0.0895,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02,Disciplinas matriculadas (2º sem.) = 7
+701,542,0.0894,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 12,Idade no ingresso = 24
+702,565,0.0887,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 7,Ocupação do pai 4
+703,788,0.0882,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Média das notas (2º sem.) = 11,Bolsista = 0
+704,439,0.085,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 13,Disciplinas matriculadas (1º sem.) = 6,Taxa de desemprego = 15.50
+705,80,0.0824,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 132.40,Bolsista = 0,Deslocado da cidade de origem = 1
+706,217,0.0817,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02
+707,758,0.0817,Baixo,Individual,Análise caso a caso,—,Curso 9773,Nota de admissão = 135,Ordem de opção do curso = 3
+708,28,0.0808,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,PIB = 2.02,Disciplinas matriculadas (2º sem.) = 8
+709,719,0.0801,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 12,Taxa de desemprego = 12.70
+710,108,0.0794,Baixo,Financeiro,Renegociação de mensalidade,—,Inadimplente = 1,PIB = 2.02,Bolsista = 0
+711,526,0.0791,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 15,Disciplinas creditadas (1º sem.) = 14,Avaliações realizadas (2º sem.) = 13
+712,585,0.0785,Baixo,Pedagógico,Monitoria ou tutoria,Acadêmico,Disciplinas aprovadas (1º sem.) = 3,Idade no ingresso = 35,Modalidade de ingresso 1
+713,617,0.0775,Baixo,Individual,Análise caso a caso,—,Curso 9773,Taxa de desemprego = 16.20,Ocupação da mãe 2
+714,664,0.0771,Baixo,Contato,Possível abandono em curso,Financeiro,Avaliações realizadas (2º sem.) = 11,Taxa de desemprego = 16.20,Bolsista = 0
+715,139,0.0739,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 7
+716,720,0.0733,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0,Escolaridade do pai 3
+717,243,0.0713,Baixo,Financeiro,Avaliar concessão de bolsa,—,PIB = 3.51,Gênero = 1,Bolsista = 0
+718,129,0.0702,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 23,PIB = 2.02,Gênero = 1
+719,725,0.0692,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 131.80,Curso 9670,Deslocado da cidade de origem = 1
+720,620,0.0678,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 12.70,Disciplinas matriculadas (2º sem.) = 7
+721,191,0.0677,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Nota de admissão = 122.60,Deslocado da cidade de origem = 1
+722,284,0.065,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 123.90,Gênero = 1,Ordem de opção do curso = 5
+723,556,0.0643,Baixo,Contato,Possível abandono em curso,Financeiro,Nota de admissão = 135.90,Avaliações realizadas (2º sem.) = 11,Bolsista = 0
+724,635,0.063,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 34,Bolsista = 0,Gênero = 1
+725,696,0.0627,Baixo,Individual,Análise caso a caso,—,Curso 9670,PIB = 3.51,Nota de admissão = 124.10
+726,608,0.0612,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Avaliações realizadas (1º sem.) = 15,Disciplinas matriculadas (2º sem.) = 6
+727,105,0.0612,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 128.80,PIB = 3.51,Curso 9670
+728,4,0.0611,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 131,Bolsista = 0,Deslocado da cidade de origem = 1
+729,780,0.0607,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 3,Curso 9670,Nota de admissão = 127.20
+730,213,0.0597,Baixo,Pedagógico,Monitoria ou tutoria,—,Curso 9119,Disciplinas aprovadas (1º sem.) = 4,PIB = 2.02
+731,66,0.0594,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Nota da formação anterior
+732,199,0.0592,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 7,Avaliações realizadas (2º sem.) = 11,PIB = 2.02
+733,173,0.0585,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Deslocado da cidade de origem = 1,Escolaridade do pai 1
+734,79,0.0583,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 6,Deslocado da cidade de origem = 1,Ordem de opção do curso = 3
+735,409,0.0579,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 27,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 126
+736,535,0.0575,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 28,Deslocado da cidade de origem = 1
+737,644,0.0571,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 125,Gênero = 1,Deslocado da cidade de origem = 1
+738,717,0.0565,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 12,PIB = 3.51,Avaliações realizadas (2º sem.) = 15
+739,21,0.0562,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 134.30,Escolaridade do pai 2,Ocupação do pai 1
+740,514,0.0561,Baixo,Individual,Análise caso a caso,—,Ocupação do pai 4,Deslocado da cidade de origem = 1,Nota da formação anterior
+741,622,0.0553,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 24,Taxa de desemprego = 16.20,Bolsista = 0
+742,239,0.0553,Baixo,Pedagógico,Monitoria ou tutoria,—,Média das notas (2º sem.) = 11,Nota de admissão = 122,Nota da formação anterior
+743,452,0.0548,Baixo,Individual,Análise caso a caso,—,Deslocado da cidade de origem = 1,Taxa de desemprego = 12.70,Escolaridade do pai 3
+744,746,0.0544,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Curso 9991,Modalidade de ingresso 1
+745,590,0.0527,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 16.20,Idade no ingresso = 23
+746,734,0.052,Baixo,Pedagógico,Monitoria ou tutoria,Contato,Disciplinas aprovadas (1º sem.) = 2,Nota de admissão = 133.70,Avaliações realizadas (2º sem.) = 11
+747,772,0.0516,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Idade no ingresso = 24,Gênero = 1
+748,728,0.0514,Baixo,Acadêmico,Flexibilização de carga e prazos,Contato,Idade no ingresso = 25,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 11
+749,270,0.049,Baixo,Contato,Possível abandono em curso,Acadêmico,Avaliações realizadas (2º sem.) = 12,Disciplinas matriculadas (1º sem.) = 12,Disciplinas creditadas (1º sem.) = 8
+750,589,0.0483,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 130.80,Escolaridade do pai 3
+751,154,0.0483,Baixo,Pedagógico,Monitoria ou tutoria,Financeiro,Disciplinas aprovadas (1º sem.) = 4,Bolsista = 0,Deslocado da cidade de origem = 1
+752,730,0.0472,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 12.70,Deslocado da cidade de origem = 1
+753,477,0.0466,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 43,Bolsista = 0
+754,355,0.0466,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 6,Bolsista = 0,Deslocado da cidade de origem = 1
+755,327,0.0463,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Nota de admissão = 122.10,Taxa de desemprego = 13.90
+756,531,0.0461,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 48,Nota de admissão = 119,Média das notas (1º sem.) = 10.67
+757,716,0.0447,Baixo,Acadêmico,Flexibilização de carga e prazos,Pedagógico,Idade no ingresso = 38,Curso 9991,Média das notas (1º sem.) = 11
+758,476,0.0445,Baixo,Acadêmico,Revisar carga de disciplinas,—,Curso 9853,Deslocado da cidade de origem = 1,Disciplinas matriculadas (1º sem.) = 6
+759,693,0.0427,Baixo,Acadêmico,Revisar carga de disciplinas,—,Deslocado da cidade de origem = 1,Nota de admissão = 120,Disciplinas matriculadas (1º sem.) = 6
+760,147,0.0422,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 130.80,Bolsista = 0,Ocupação da mãe 4
+761,507,0.0421,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 129.90,Deslocado da cidade de origem = 1,Bolsista = 0
+762,763,0.0413,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 121.50,Nota da formação anterior
+763,83,0.0394,Baixo,Individual,Análise caso a caso,—,PIB = 3.51,Deslocado da cidade de origem = 1,Nota da formação anterior
+764,494,0.0387,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 122,Deslocado da cidade de origem = 1
+765,512,0.0366,Baixo,Pedagógico,Monitoria ou tutoria,—,Disciplinas aprovadas (1º sem.) = 4,Nota da formação anterior,Curso 9238
+766,24,0.0355,Baixo,Acadêmico,Revisar carga de disciplinas,Financeiro,Disciplinas matriculadas (1º sem.) = 7,Taxa de desemprego = 13.90,Bolsista = 0
+767,784,0.035,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Escolaridade do pai 2,Gênero = 1
+768,516,0.0341,Baixo,Individual,Análise caso a caso,—,Nota de admissão = 136.40,Nota da formação anterior,Deslocado da cidade de origem = 1
+769,135,0.034,Baixo,Financeiro,Avaliar concessão de bolsa,Pedagógico,Gênero = 1,Bolsista = 0,Média das notas (1º sem.) = 10.20
+770,285,0.0333,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 13,Avaliações realizadas (2º sem.) = 12,Disciplinas creditadas (1º sem.) = 9
+771,436,0.0331,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 12,Avaliações realizadas (2º sem.) = 15,PIB = 3.51
+772,9,0.0331,Baixo,Acadêmico,Revisar carga de disciplinas,Contato,Disciplinas matriculadas (1º sem.) = 8,Avaliações realizadas (2º sem.) = 10,Nota de admissão = 121.30
+773,548,0.0325,Baixo,Individual,Análise caso a caso,—,Curso 9773,Taxa de desemprego = 15.50,Nota de admissão = 137.40
+774,396,0.0299,Baixo,Individual,Análise caso a caso,—,PIB = 2.02,Curso 9670,Gênero = 1
+775,52,0.0294,Baixo,Financeiro,Avaliar concessão de bolsa,—,Nota de admissão = 136.80,Bolsista = 0,Deslocado da cidade de origem = 1
+776,227,0.0273,Baixo,Acadêmico,Revisar carga de disciplinas,—,PIB = 2.02,Disciplinas matriculadas (1º sem.) = 6,Disciplinas matriculadas (2º sem.) = 6
+777,586,0.0269,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 26,Disciplinas matriculadas (1º sem.) = 7,Bolsista = 0
+778,116,0.0268,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 133.80,Deslocado da cidade de origem = 1
+779,628,0.0248,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 124,Ordem de opção do curso = 5
+780,286,0.0247,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 124.30,Escolaridade da mãe 3
+781,605,0.0231,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Nota de admissão = 132.30,Deslocado da cidade de origem = 1
+782,470,0.0228,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Nota de admissão = 125.30,Gênero = 1
+783,735,0.0224,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Idade no ingresso = 24,Taxa de desemprego = 12.70
+784,46,0.0208,Baixo,Financeiro,Avaliar concessão de bolsa,—,Taxa de desemprego = 15.50,Bolsista = 0,Nota da formação anterior
+785,724,0.0194,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 31,Nota de admissão = 130,Bolsista = 0
+786,448,0.0192,Baixo,Individual,Análise caso a caso,—,PIB = 3.51,Nota de admissão = 126.30,Deslocado da cidade de origem = 1
+787,744,0.0186,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 8,Deslocado da cidade de origem = 1,Taxa de desemprego = 12.70
+788,450,0.0183,Baixo,Financeiro,Avaliar concessão de bolsa,—,Bolsista = 0,Curso 9130,Escolaridade da mãe 3
+789,35,0.017,Baixo,Acadêmico,Flexibilização de carga e prazos,—,Idade no ingresso = 26,Curso 9991,Disciplinas matriculadas (1º sem.) = 6
+790,176,0.0158,Baixo,Acadêmico,Revisar carga de disciplinas,—,PIB = 2.02,Ordem de opção do curso = 3,Disciplinas matriculadas (1º sem.) = 6
+791,165,0.0145,Baixo,Acadêmico,Flexibilização de carga e prazos,Financeiro,Idade no ingresso = 31,Bolsista = 0,Disciplinas matriculadas (2º sem.) = 7
+792,407,0.0131,Baixo,Acadêmico,Revisar carga de disciplinas,—,Gênero = 1,Deslocado da cidade de origem = 1,Disciplinas matriculadas (1º sem.) = 6
+793,44,0.009,Baixo,Financeiro,Avaliar concessão de bolsa,Acadêmico,Bolsista = 0,Disciplinas matriculadas (1º sem.) = 6,Ocupação do pai 9
+794,45,0.0063,Baixo,Acadêmico,Revisar carga de disciplinas,—,Disciplinas matriculadas (1º sem.) = 7,Disciplinas matriculadas (2º sem.) = 8,Ocupação da mãe 5
