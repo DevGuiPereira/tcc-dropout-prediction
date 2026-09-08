@@ -131,12 +131,13 @@ memorização, não generalização — e o erro é silencioso, porque produz n�
 tcc-dropout-prediction/
 ├── 01_analise_exploratoria.ipynb      48 células — Fase 2 do CRISP-DM
 ├── 02_preprocessamento.ipynb          27 células — Fase 3
-├── 03_treinamento_modelos.ipynb       44 células — Fase 4
-├── 04_interpretabilidade_shap.ipynb   49 células — Fase 5
+├── 03_treinamento_modelos.ipynb       50 células — Fase 4
+├── 04_interpretabilidade_shap.ipynb   53 células — Fase 5
 ├── 05_relatorio_final.ipynb           23 células — Fase 6
 ├── 06_calibracao.ipynb                15 células — calibração
 ├── 07_significancia.ipynb             18 células — significância
 ├── 08_auditoria_equidade.ipynb        14 células — equidade
+├── 09_aplicacao_alunos_ativos.ipynb   32 células — aplicação a alunos ativos
 │
 ├── src/
 │   └── data_loader.py                 Carga MySQL/UCI, padronização, correção de integridade

@@ -3,6 +3,13 @@
 > Tabelas e figuras consolidadas, formatadas para transcrição direta na monografia.
 > Todos os números foram extraídos dos notebooks executados — nenhum valor é estimado.
 
+> **Convenção de partição — vale para todas as tabelas deste documento.** Salvo indicação em
+> contrário, todo número de desempenho vem da **partição da semente 42**. A
+> [Verificação 2](10-significancia.md) mostrou que essa partição é **favorável**: em partições típicas
+> o F1 é ≈ 0,88 (não 0,9059), o modelo detecta **84 de cada 100** evadidos (não 90, faixa 82–86) e
+> perde 44 em vez de 29. A precisão não apresenta esse viés. **Comparações entre modelos permanecem
+> válidas**, porque todos são avaliados sobre exatamente os mesmos alunos.
+
 ---
 
 ## 1. Caracterização da amostra
@@ -235,7 +242,7 @@
 
 **Tabela 18 — Trade-off entre recall e precisão na escolha do modelo**
 
-| | Regressão Logística | XGBoost |
+| Partição da semente 42 | Regressão Logística | XGBoost |
 |---|---:|---:|
 | Evadidos detectados | **265** de 284 | 255 de 284 |
 | Evadidos perdidos | **19** | 29 |
@@ -265,8 +272,9 @@
 
 - Baixar o limiar de 0,50 para **0,30** reduz os evadidos não detectados de 29 para **12**, ao custo de
   34 conversas extras. **17 alunos resgatados.**
-- Baixar para **0,10** deixa apenas 6 evadidos escaparem, mas convoca 62% da turma — ponto em que o
-  sistema satura a equipe e perde utilidade.
+- Baixar para **0,10** deixa apenas 6 evadidos escaparem, mas convoca 447 alunos — 62% da turma,
+  bem acima do teto de 50% adotado neste trabalho, e portanto fora da faixa em que a lista ainda
+  funciona como priorização.
 - **Elevar** o limiar é mau negócio: de 0,50 para 0,80, economizam-se 21 conversas ao custo de 18
   alunos perdidos.
 
@@ -394,7 +402,11 @@
 |---|---|---:|---|---|
 | Estável | 0,852 – 0,9577 | 31 | **XGBoost em 31 de 31** | 34% a 46% da turma |
 | Banda estreita | 0,9613 – 0,9718 | 4 | **Reg. Logística em 4 de 4** | 47% a 49% da turma |
-| Instável | ≥ 0,9754 | 8 | oscila — 3 inversões | 59% a 94% da turma |
+| Instável | ≥ 0,9754 | 8 | oscila — 3 travessias de liderança | 59% a 94% da turma |
+
+*Convocação considerando os dois modelos. A curva tem 9 pontos vencidos pela Regressão Logística e
+3 travessias de liderança — são contagens distintas. Abaixo do teto de 50%, o XGBoost vence 72 dos
+76 pontos decididos.*
 
 **Tabela 30 — Comparação isocusto** — mesmo número de falsos alarmes
 
@@ -415,6 +427,38 @@
 | XGBoost | 0,9741 | [0,9623 — 0,9846] |
 
 *Diferença pareada XGBoost − Reg. Logística: +0,0031, IC 95% [−0,0027, +0,0093] — contém o zero, não significativa.*
+
+---
+
+### Tabela 32 — Perfil dos falsos negativos contra os demais grupos
+
+| Variável | Falsos negativos | Evadidos detectados | Formandos | Parece com |
+|---|---:|---:|---:|---|
+| Disciplinas aprovadas (2º sem.) | **6,24** | 1,23 | 6,10 | formando |
+| Disciplinas aprovadas (1º sem.) | **6,76** | 1,82 | 6,12 | formando |
+| Média das notas (2º sem.) | **12,37** | 5,00 | 12,55 | formando |
+| Mensalidades em dia | **0,97** | 0,62 | 0,99 | formando |
+| Inadimplente | **0,07** | 0,24 | 0,05 | formando |
+| Idade no ingresso | 24,55 | 26,39 | 21,60 | evadido |
+| Bolsista | 0,07 | 0,09 | 0,33 | evadido |
+
+*Em 5 das 7 variáveis-chave o falso negativo médio está mais próximo do formando do que do evadido que
+o modelo detectou. Fonte: `dados/perfil_falsos_negativos.csv`.*
+
+### Tabela 33 — Taxa condicional de falso negativo: o núcleo duro
+
+| Taxa condicional | Alunos | % |
+|---|---:|---:|
+| Nunca errado (0%) | 398 | 80,7% |
+| Baixa (0 < t ≤ 30%) | 4 | 0,8% |
+| Intermediária (30–99%) | 23 | 4,7% |
+| **Sempre errado (100%)** | **68** | **13,8%** |
+
+*Base: 493 evadidos que apareceram no conjunto de teste ao menos 3 vezes ao longo das 10 partições. A
+taxa é condicional às aparições, e não à contagem simples entre sementes — esta última é confundida
+pela composição do split. Erro aleatório à taxa global de 15,6% produziria 1,3 alunos com taxa de
+100%; observam-se 68, cerca de 54 vezes mais. Fonte:
+`dados/taxa_condicional_falsos_negativos.csv`.*
 
 ---
 
@@ -451,6 +495,8 @@ Todas em PNG, 200 dpi, prontas para inserção.
 | `figuras/23_intervalos_confianca.png` | *Bootstrap*, ICs por métrica e variabilidade entre sementes | Verificação — significância |
 | `figuras/24_equidade_subgrupos.png` | Recall e taxa de falsos positivos por subgrupo | Verificação — equidade |
 | `figuras/25_curvas_custo_pareadas.png` | Custo de cada modelo em pontos de operação pareados, com teto de convocação | Discussão — escolha de modelo |
+| `figuras/26_alunos_ativos_distribuicao.png` | Onde os alunos ativos caem na escala do modelo, contra evadidos e formandos | Aplicação — alunos ativos |
+| `figuras/27_aluno_ativo_waterfall.png` | Decomposição do aluno ativo de maior risco | Aplicação — alunos ativos |
 
 > **Recomendação para a apresentação oral.** Três figuras carregam o argumento:
 >

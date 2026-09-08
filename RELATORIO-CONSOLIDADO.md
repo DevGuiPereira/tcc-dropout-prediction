@@ -4,6 +4,13 @@
 alunos em risco de evasão no ensino superior**
 Curso de Sistemas de Informação — UEMG
 
+> **Convenção de partição — vale para todas as tabelas deste documento.** Salvo indicação em
+> contrário, todo número de desempenho vem da **partição da semente 42**. A
+> **Verificação 2** (seção 10) mostrou que essa partição é **favorável**: em partições típicas
+> o F1 é ≈ 0,88 (não 0,9059), o modelo detecta **84 de cada 100** evadidos (não 90, faixa 82–86) e
+> perde 44 em vez de 29. A precisão não apresenta esse viés. **Comparações entre modelos permanecem
+> válidas**, porque todos são avaliados sobre exatamente os mesmos alunos.
+
 ---
 
 > **O que este documento é.** O registro único e completo de tudo o que foi construído e de todas as
@@ -398,8 +405,10 @@ também não serve como critério único.
 
 ### 6.5 O empate entre Random Forest e XGBoost
 
-Os dois produzem **matriz de confusão idêntica** (418/24/29/255) e ainda assim **discordam sobre 24
-alunos** — os erros de um compensam exatamente os do outro.
+Os dois produzem **matriz de confusão idêntica** (418/24/29/255 na partição da semente 42) e ainda
+assim **discordam sobre 24 alunos** — e nesses 24 cada modelo acerta exatamente **12**, o que torna a
+compensação literal. As probabilidades atribuídas diferem (correlação 0,9712), confirmando que são
+modelos distintos com o mesmo placar, não erro de transcrição.
 
 | Par | Alunos com classificação divergente |
 |---|---:|
@@ -417,7 +426,7 @@ Sem um terceiro critério declarado, o vencedor sairia da ordem de iteração do
 
 ### 6.6 O trade-off que o F1 esconde
 
-| | Reg. Logística | XGBoost |
+| Partição da semente 42 | Reg. Logística | XGBoost |
 |---|---:|---:|
 | Evadidos detectados | **265** de 284 | 255 de 284 |
 | Evadidos perdidos | **19** | 29 |
@@ -447,10 +456,19 @@ resolução de um aluno):
 |---|---|---:|---|---|
 | **Estável** | 0,852 – 0,9577 | 31 | **XGBoost em 31 de 31** | 34% a 46% da turma |
 | **Banda estreita** | 0,9613 – 0,9718 | 4 | **Reg. Logística em 4 de 4** | 47% a 49% da turma |
-| **Instável** | ≥ 0,9754 | 8 | oscila — 3 inversões | 59% a 94% da turma |
+| **Instável** | ≥ 0,9754 | 8 | oscila — 3 travessias de liderança | 59% a 94% da turma |
 
-**A manchete:** o XGBoost vence em **31 de 31** pontos de operação na faixa prática (recall ≤ 0,958);
-acima disso a ordenação oscila e a operação deixa de ser útil, convocando de 45% a 94% da turma.
+*Convocação considerando os dois modelos; pelo XGBoost isoladamente, 34%–45%, 47%–49% e 59%–91%.*
+
+**A manchete:** na faixa de recall 0,852 a 0,9577 o XGBoost vence em **31 de 31** pontos de operação,
+convocando de 34% a 46% da turma.
+
+**Com a ressalva que ela exige:** os quatro pontos em que a Regressão Logística vence convocam de
+47% a 49% — **abaixo do teto prático de 50%** adotado neste trabalho. Não estão fora da faixa
+utilizável; são os últimos quatro pontos antes da fronteira. Contabilizando tudo abaixo do teto, o
+XGBoost vence **72 dos 76 pontos decididos**, e a Regressão Logística os outros 4. Adotar 62% em vez
+de 50% como fronteira levaria a 74 × 4 — as mesmas quatro inversões, porque o segundo bloco só
+aparece a partir de 66% de convocação.
 
 **Mas há uma banda estreita real**, e esconder isso seria pior do que mostrá-la: entre recall 0,9613 e
 0,9718 — quatro pontos consecutivos — a Regressão Logística é consistentemente melhor, por 1 a 11 falsos
@@ -655,6 +673,29 @@ individuais. E isso é esperado, dado o achado da §7.3.
 
 ### 7.7 O falso negativo — o teto intrínseco
 
+**O caso C é típico do grupo?** Descrever um aluno e concluir que existe teto intrínseco é inferência
+a partir de n = 1. Testado no agregado:
+
+| Variável | Falsos negativos | Evadidos detectados | Formandos |
+|---|---:|---:|---:|
+| Disciplinas aprovadas (2º sem.) | **6,24** | 1,23 | 6,10 |
+| Disciplinas aprovadas (1º sem.) | **6,76** | 1,82 | 6,12 |
+| Média das notas (2º sem.) | **12,37** | 5,00 | 12,55 |
+| Mensalidades em dia | **0,97** | 0,62 | 0,99 |
+| Idade no ingresso | 24,55 | 26,39 | 21,60 |
+| Bolsista | 0,07 | 0,09 | 0,33 |
+
+Em **5 das 7** variáveis-chave o falso negativo médio está mais próximo do formando. O caso C é retrato
+do grupo, não exceção. Duas variáveis fogem — são menos bolsistas e mais velhos —, ou seja: parecem
+formandos no desempenho e nas finanças, mas mantêm marcadores demográficos de risco.
+
+> **Núcleo duro, verificado.** Entre os 493 evadidos que apareceram no conjunto de teste ao menos 3
+> vezes nas 10 partições, **68 (13,8%) foram classificados errado em 100% das vezes**. Erro aleatório
+> à taxa global de 15,6% produziria 1,3 alunos nessa condição — observam-se 68, cerca de 54 vezes
+> mais. A distribuição é bimodal (80,7% nunca errados, 13,8% sempre errados, menos de 6% no meio). O
+> erro do modelo não é ruído distribuído: concentra-se num subconjunto identificável. É esse núcleo,
+> e não a variação amostral, que sustenta a afirmação de teto intrínseco.
+
 Um aluno que **evadiu** e recebeu escore de apenas **0,023**:
 
 | SHAP | Fator |
@@ -693,7 +734,7 @@ regular.
 | **R-3** | Ampliar e priorizar bolsas | alto | **Viés de seleção provável** — bolsas exigem desempenho mínimo |
 | **R-4** | Acompanhamento para ingressantes de 23+ anos | médio | Idade é **marcador**, não causa |
 | **R-5** | **Encaminhar ao setor conforme o fator dominante** | baixo | Ver revisão na [Verificação 3](#11-verificação-3--equidade-algorítmica) |
-| **R-6** | Comunicar como priorização, nunca veredito | nulo | Os 29 falsos negativos exigem isso |
+| **R-6** | Comunicar como priorização, nunca veredito | nulo | Os 29 falsos negativos desta partição — 44 numa típica — exigem isso |
 | **R-7** | Calibrar o limiar conforme a capacidade da equipe | nulo | Decisão de política, não de modelagem |
 
 **R-5 em detalhe** — a recomendação que só o SHAP viabiliza:
@@ -777,7 +818,10 @@ corte em 0,10 convocaria esses 81 alunos, dos quais apenas 2 evadiriam.
 | sigmoid | 0,0523 | 0,1189 | 0,9747 | 0,9046 |
 | isotonic | 0,0516 | 0,0880 | 0,9747 | 0,9071 |
 
-O isotonic ganha **0,0004 de Brier** — desprezível; o sigmoid **piora** nas duas métricas. A razão de
+O isotonic reduz o **ECE em 16%** (0,1052 → 0,0880), mas ganha apenas **0,0004 de Brier**, e não
+corrige a faixa [0,10–0,20) que motivou a análise: o erro ali cai de +11,8 pp para +10,7 pp. O sigmoid
+**piora** as duas métricas agregadas. A razão decisiva, porém, é outra: a calibração é **monotônica**,
+o ROC-AUC é idêntico nos três casos, e portanto ela não altera quem seria convocado. A razão de
 fundo: a miscalibração está na faixa central pouco populada, onde nenhum calibrador tem dados para
 corrigir de forma confiável. **`melhor_modelo.joblib` permanece inalterado.**
 
@@ -850,7 +894,8 @@ trabalho nega. O McNemar **restrito aos 284 evadidos** testa o recall diretament
 limiar padrão de 0,50 para ambos**. Como 0,50 é convenção de biblioteca, os dois modelos operam ali em
 níveis de recall diferentes (0,933 e 0,898). O teste **não impede** que o recall seja igualado ajustando
 o limiar de um deles — e a análise de custo pareado da §6.6 mostra que, igualados os pontos de operação,
-**o XGBoost detecta mais evadidos pelo mesmo custo em 31 de 31 pontos da faixa prática**.
+**o XGBoost detecta mais evadidos pelo mesmo custo em 31 de 31 pontos da faixa de recall 0,852–0,9577**
+— e em 72 dos 76 pontos decididos abaixo do teto de convocação de 50%.
 
 **O que o teste estabelece:** que a diferença de recall **no limiar padrão** é real e não fruto do acaso.
 **O que ele não estabelece:** que a Regressão Logística seja um modelo melhor. A diferença é uma
@@ -980,6 +1025,51 @@ de amostra examinados, e o monitoramento precisa continuar em operação.**
 
 ---
 
+## 11b. Aplicação — o modelo sobre os 794 alunos ainda cursando
+
+Documento detalhado: [`docs/13`](docs/13-aplicacao-alunos-ativos.md) · Notebook:
+`09_aplicacao_alunos_ativos.ipynb`
+
+O modelo foi aplicado à classe `Enrolled`, removida do treino na Fase 3. É o uso pretendido do trabalho
+e o teste mais duro da limitação L-01. Esses alunos nunca passaram pelo modelo — foram excluídos antes
+do split, sem vazamento.
+
+### O achado central
+
+| Grupo | n | Escore mediano | % na zona 0,2–0,8 |
+|---|---:|---:|---:|
+| Dropout — evadiram | 1.421 | 0,984 | 17,5% |
+| **Enrolled — ainda cursando** | **794** | **0,480** | **42,4%** |
+| Graduate — formaram | 2.209 | 0,058 | 13,1% |
+
+Os concluídos ficam nos extremos; **os ativos ficam no meio**. Não é defeito do modelo: é consequência
+direta de ele nunca ter visto essa população. A L-01 deixa de ser ressalva formal e passa a ter número.
+
+**Consequência imediata:** o limiar 0,50 sinalizaria **386 alunos, 48,6% dos ativos** — não é política
+de intervenção, é uma lista que ninguém atende. A saída é partir da capacidade real: com 50 vagas de
+monitoria, convoque os 50 de maior escore (corte em 0,988).
+
+### A entrega
+
+Lista priorizada dos 794 alunos com os três fatores que mais pesaram em cada caso e o setor de
+encaminhamento (`dados/alunos_ativos_priorizados.csv`). Distribuição por faixa: 181 muito alto, 105
+alto, 150 moderado, 358 baixo. Entre os 100 de maior risco, 95 vão para o pedagógico e 5 para o
+financeiro.
+
+**442 alunos (55,7%) têm risco em mais de uma área** — são os que escapam de fluxos institucionais,
+porque cada setor os trata como caso do outro.
+
+### O limite
+
+Nenhum número desta seção foi validado contra desfecho real, porque esses desfechos ainda não existem.
+O escore responde a *"este aluno se parece com quem evadiu?"*, não a *"qual a probabilidade de ele
+evadir"*. Serve para **priorizar atenção**, não para afirmar destino.
+
+A validação real é registrar a lista hoje e conferir em dois semestres quem de fato evadiu — o que
+converteria os 794 em conjunto de teste verdadeiro.
+
+---
+
 ## 12. Conclusões consolidadas
 
 ### 12.1 O objetivo foi atingido?
@@ -1012,10 +1102,11 @@ Mas o título pedia mais: um modelo **interpretável**. É aí que está a contr
 6. **Com uma qualificação, e ela é mais precisa do que parecia.** Pelo McNemar, a Regressão Logística
    detecta significativamente mais evadidos **no limiar padrão de 0,50** (p = 0,034). Mas o limiar 0,50 é
    convenção de biblioteca — e a curva de custo exata mostra que, **igualados os pontos de operação**, o
-   XGBoost detecta mais evadidos pelo mesmo custo em **31 de 31** pontos da faixa prática (recall ≤
-   0,958). A vantagem do modelo linear se restringe a uma **banda estreita** de recall muito alto
-   (0,9613–0,9718), que exige convocar metade da turma. A diferença entre algoritmos é uma propriedade do
-   **ponto de operação**, não dos modelos.
+   XGBoost detecta mais evadidos pelo mesmo custo em **31 de 31** pontos na faixa de recall
+   0,852–0,9577, e em **72 dos 76 pontos decididos** abaixo do teto de convocação de 50%. Os 4 pontos
+   restantes pertencem ao modelo linear (recall 0,9613–0,9718) e convocam de 47% a 49% da turma —
+   **dentro** do teto, nos últimos pontos percentuais antes dele. A diferença entre algoritmos é uma
+   propriedade do **ponto de operação**, não dos modelos.
 
 6b. **O limiar importa mais que o algoritmo — e há evidência que dispensa comparar modelos.** No limiar
    0,50 a Regressão Logística paga 44 falsos alarmes por 265 evadidos detectados, quando a sua própria
@@ -1240,6 +1331,7 @@ partição e conferindo contra os valores publicados.
 | [10 — Significância estatística](docs/10-significancia.md) | Verificação 2 |
 | [11 — Equidade algorítmica](docs/11-equidade.md) | Verificação 3 |
 | [12 — Revisão final](docs/12-revisao-final.md) | Changelog das correções de coerência interna |
+| [13 — Aplicação a alunos ativos](docs/13-aplicacao-alunos-ativos.md) | O modelo sobre os 794 alunos que ainda cursam |
 
 ## Referências
 

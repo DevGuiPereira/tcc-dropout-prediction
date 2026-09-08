@@ -63,11 +63,12 @@ tcc-dropout-prediction/
 ├── 01_analise_exploratoria.ipynb      Fase 2 — Entendimento dos dados       (48 células)
 ├── 02_preprocessamento.ipynb          Fase 3 — Preparação dos dados         (27 células)
 ├── 03_treinamento_modelos.ipynb       Fase 4 — Modelagem                    (50 células)
-├── 04_interpretabilidade_shap.ipynb   Fase 5 — Interpretabilidade (SHAP)    (49 células)
+├── 04_interpretabilidade_shap.ipynb   Fase 5 — Interpretabilidade (SHAP)    (53 células)
 ├── 05_relatorio_final.ipynb           Fase 6 — Relatório consolidado        (23 células)
 ├── 06_calibracao.ipynb                Verificação — calibração de probabilidade (15 células)
 ├── 07_significancia.ipynb             Verificação — bootstrap, McNemar, sementes (26 células)
 ├── 08_auditoria_equidade.ipynb        Verificação — equidade algorítmica     (14 células)
+├── 09_aplicacao_alunos_ativos.ipynb   Aplicação — alunos ainda cursando      (32 células)
 │
 ├── src/
 │   └── data_loader.py                 Carga MySQL/UCI, padronização de colunas,
@@ -116,13 +117,14 @@ os resultados** de cada etapa.
 | [03 — Preparação dos dados](docs/03-preparacao-dos-dados.md) | Tratamento de `Enrolled`, codificação, split, SMOTE |
 | [04 — Modelagem](docs/04-modelagem.md) | Três modelos, busca de hiperparâmetros, comparação, seleção |
 | [05 — Decisões metodológicas](docs/05-decisoes-metodologicas.md) | 40 decisões, cada uma com alternativa rejeitada e risco assumido |
-| [06 — Resultados e figuras](docs/06-resultados-e-figuras.md) | 31 tabelas e 29 figuras prontas para transcrição na monografia |
+| [06 — Resultados e figuras](docs/06-resultados-e-figuras.md) | 33 tabelas e 31 figuras prontas para transcrição na monografia |
 | [07 — Limitações e trabalhos futuros](docs/07-limitacoes-e-trabalhos-futuros.md) | 15 limitações e 9 propostas de continuidade, priorizadas |
 | [08 — Interpretabilidade com SHAP](docs/08-interpretabilidade-shap.md) | Importância, direção, limiares operacionais, casos individuais, 7 recomendações |
 | [09 — Calibração de probabilidade](docs/09-calibracao.md) | O escore é probabilidade real? Efeito sobre a análise de limiar |
 | [10 — Significância estatística](docs/10-significancia.md) | *Bootstrap*, McNemar em dois escopos, 10 sementes |
 | [11 — Equidade algorítmica](docs/11-equidade.md) | Recall e FPR por subgrupo, *equalized odds*, poder estatístico |
 | [12 — Revisão final](docs/12-revisao-final.md) | Changelog das correções de coerência interna aplicadas após revisão crítica |
+| [13 — Aplicação a alunos ativos](docs/13-aplicacao-alunos-ativos.md) | O modelo rodando sobre os 794 alunos que ainda cursam, e o que isso revela sobre a limitação L-01 |
 
 O **Notebook 5** consolida tudo em formato de relatório, e inclui uma demonstração de uso ponta a ponta:
 `avaliar_aluno()` recebe os dados brutos de um aluno e devolve probabilidade, explicação individual e
@@ -194,6 +196,7 @@ despercebido sem verificação explícita.
 | Verificação 1 — Calibração | `06_calibracao.ipynb` | ✅ concluída |
 | Verificação 2 — Significância estatística | `07_significancia.ipynb` | ✅ concluída |
 | Verificação 3 — Equidade algorítmica | `08_auditoria_equidade.ipynb` | ✅ concluída |
+| Aplicação — Alunos ainda cursando | `09_aplicacao_alunos_ativos.ipynb` | ✅ concluída |
 
 **Pipeline completo.** As seis fases do CRISP-DM estão executadas e documentadas, e as três
 verificações posteriores testaram a robustez dos resultados — a mais consequente delas, a de
